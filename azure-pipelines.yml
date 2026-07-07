@@ -1,0 +1,109 @@
+trigger:
+  branches:
+    include:
+      - dev
+
+pr:
+  branches:
+    include:
+      - dev
+
+variables:
+  azureSubscription: "refactor-fe-dev-sc"
+  registryName:      "carsurefactordev"
+  acrLoginServer:    "carsurefactordev.azurecr.io"
+  resourceGroup:     "CarsuRefactorDev"
+  webAppName:        "refactor-fe-dev"
+  imageRepository:   "carsu-fe"
+  tag:               "$(Build.BuildId)"
+
+stages:
+
+# 1) Build & Push
+- stage: BuildAndPush
+  displayName: Build & Push
+  jobs:
+    - job: BuildPush
+      pool: { vmImage: ubuntu-latest }
+      steps:
+        - task: AzureCLI@2
+          displayName: Build, Tag & Push to ACR
+          inputs:
+            azureSubscription: $(azureSubscription)
+            scriptType: bash
+            scriptLocation: inlineScript
+            inlineScript: |
+              set -e
+              az acr login --name $(registryName)
+              
+              # Get environment variables from Azure Web App
+              NEXT_PUBLIC_SUPABASE_URL=$(az webapp config appsettings list --name $(webAppName) --resource-group $(resourceGroup) --query "[?name=='NEXT_PUBLIC_SUPABASE_URL'].value" -o tsv)
+              NEXT_PUBLIC_SUPABASE_ANON_KEY=$(az webapp config appsettings list --name $(webAppName) --resource-group $(resourceGroup) --query "[?name=='NEXT_PUBLIC_SUPABASE_ANON_KEY'].value" -o tsv)
+              NEXT_PUBLIC_API=$(az webapp config appsettings list --name $(webAppName) --resource-group $(resourceGroup) --query "[?name=='NEXT_PUBLIC_API'].value" -o tsv)
+              NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=$(az webapp config appsettings list --name $(webAppName) --resource-group $(resourceGroup) --query "[?name=='NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY'].value" -o tsv)
+              NEXT_PUBLIC_CLERK_JWT_TEMPLATE=$(az webapp config appsettings list --name $(webAppName) --resource-group $(resourceGroup) --query "[?name=='NEXT_PUBLIC_CLERK_JWT_TEMPLATE'].value" -o tsv)
+              NEXT_PUBLIC_FACEBOOK_APP_ID=$(az webapp config appsettings list --name $(webAppName) --resource-group $(resourceGroup) --query "[?name=='NEXT_PUBLIC_FACEBOOK_APP_ID'].value" -o tsv)
+              NEXT_PUBLIC_FACEBOOK_CONFIG_ID=$(az webapp config appsettings list --name $(webAppName) --resource-group $(resourceGroup) --query "[?name=='NEXT_PUBLIC_FACEBOOK_CONFIG_ID'].value" -o tsv)
+              
+              # Echo environment variables (hiding sensitive values)
+              echo "Building with environment variables:"
+              echo "NEXT_PUBLIC_SUPABASE_URL: ${NEXT_PUBLIC_SUPABASE_URL}"
+              echo "NEXT_PUBLIC_API: ${NEXT_PUBLIC_API}"
+              echo "NEXT_PUBLIC_SUPABASE_ANON_KEY: [hidden]"
+              echo "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: [hidden]"
+              echo "NEXT_PUBLIC_CLERK_JWT_TEMPLATE: ${NEXT_PUBLIC_CLERK_JWT_TEMPLATE}"
+              echo "NEXT_PUBLIC_FACEBOOK_APP_ID: ${NEXT_PUBLIC_FACEBOOK_APP_ID}"
+              echo "NEXT_PUBLIC_FACEBOOK_CONFIG_ID: ${NEXT_PUBLIC_FACEBOOK_CONFIG_ID}"
+              echo "FACEBOOK_APP_SECRET: [hidden]"
+              
+              # Build with environment variables
+              docker build -f Dockerfile \
+                --build-arg NEXT_PUBLIC_SUPABASE_URL="${NEXT_PUBLIC_SUPABASE_URL}" \
+                --build-arg NEXT_PUBLIC_SUPABASE_ANON_KEY="${NEXT_PUBLIC_SUPABASE_ANON_KEY}" \
+                --build-arg NEXT_PUBLIC_API="${NEXT_PUBLIC_API}" \
+                --build-arg NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="${NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}" \
+                --build-arg NEXT_PUBLIC_CLERK_JWT_TEMPLATE="${NEXT_PUBLIC_CLERK_JWT_TEMPLATE}" \
+                --build-arg NEXT_PUBLIC_FACEBOOK_APP_ID="${NEXT_PUBLIC_FACEBOOK_APP_ID}" \
+                --build-arg NEXT_PUBLIC_FACEBOOK_CONFIG_ID="${NEXT_PUBLIC_FACEBOOK_CONFIG_ID}" \
+                --build-arg FACEBOOK_APP_SECRET="${FACEBOOK_APP_SECRET}" \
+                -t $(acrLoginServer)/$(imageRepository):$(tag) \
+                -t $(acrLoginServer)/$(imageRepository):latest .
+              docker push $(acrLoginServer)/$(imageRepository):$(tag)
+              docker push $(acrLoginServer)/$(imageRepository):latest
+
+# 2) (Optional) Security Scan
+- stage: Test
+  displayName: Security scan (optional)
+  dependsOn: BuildAndPush
+  jobs:
+    - job: Scan
+      pool: { vmImage: ubuntu-latest }
+      steps:
+        - script: |
+            docker pull $(acrLoginServer)/$(imageRepository):$(tag)
+            echo "Run your scanner here (e.g. Trivy)"
+          displayName: Pull & scan
+
+# 3) Deploy
+- stage: Deploy
+  displayName: Deploy to Web App
+  dependsOn: BuildAndPush
+  condition: succeeded()
+  jobs:
+    - job: DeployWebApp
+      pool: { vmImage: ubuntu-latest }
+      steps:
+        - task: AzureCLI@2
+          displayName: Deploy new container image
+          inputs:
+            azureSubscription: $(azureSubscription)
+            scriptType: bash
+            scriptLocation: inlineScript
+            inlineScript: |
+              az webapp config container set \
+                --resource-group $(resourceGroup) \
+                --name $(webAppName) \
+                --docker-custom-image-name $(acrLoginServer)/$(imageRepository):$(tag)
+              az webapp restart \
+                --resource-group $(resourceGroup) \
+                --name $(webAppName)

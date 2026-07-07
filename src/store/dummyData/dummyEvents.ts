@@ -1,0 +1,111 @@
+import { CalendarEvent } from 'src/models';
+
+const assignee = {
+  id: 'd05c1d07-fc29-459d-a829-80a706f5f761',
+  name: 'Maryna Kamysheva',
+  email: 'some@email.co',
+  userId: 'user_2j1z5DXsT7mZP4GGYHkDtlXliq2',
+  deleted: false,
+  phoneNumber: '+1 424 722 1555',
+};
+
+const breakEvents: CalendarEvent[] = Array.from({ length: 10 }, (_, i) => ({
+  id: `break-${i + 1}`,
+  title: 'Break',
+  start: new Date(`2025-01-${(i + 10).toString().padStart(2, '0')}T12:00:00`),
+  end: new Date(`2025-01-${(i + 10).toString().padStart(2, '0')}T13:00:00`),
+  description: 'Scheduled break',
+  allDay: false,
+  break: true,
+  cardData: undefined,
+}));
+
+const assignedEvents: CalendarEvent[] = Array.from({ length: 10 }, (_, i) => ({
+  id: `event-${i + 1}`,
+  title: `Meeting ${i + 1}`,
+  start: new Date(`2025-01-${(i + 10).toString().padStart(2, '0')}T09:00:00`),
+  end: new Date(`2025-01-${(i + 10).toString().padStart(2, '0')}T10:30:00`),
+  description: `Discussion about project ${i + 1}`,
+  allDay: false,
+  break: false,
+  cardData: {
+    id: `card-${i + 1}`,
+    lastChange: `2025-01-${(i + 9).toString().padStart(2, '0')}T14:00:00.000Z`,
+    pickUpDate: `2025-01-${(i + 10).toString().padStart(2, '0')}T09:00:00.000Z`,
+    dropOffDate: `2025-01-${(i + 10).toString().padStart(2, '0')}T10:30:00.000Z`,
+    assignee,
+    assignedDate: `2025-01-${(i + 10).toString().padStart(2, '0')}T09:00:00.000Z`,
+    status: 1,
+    position: i,
+    estimateId: `est-${i + 1}`,
+    confirmed: false,
+    emailId: `email-${i + 1}`,
+    removed: false,
+    title: `Project Meeting ${i + 1}`,
+    customer: {
+      id: `customer-${i + 1}`,
+      email: `customer${i + 1}@example.com`,
+      name: `Customer ${i + 1}`,
+      phoneNumber: `+12345678${i + 1}`,
+    },
+    vehicle: {
+      id: `vehicle-${i + 1}`,
+      contactPerson: `customer-${i + 1}`,
+      vin: null,
+      licensePlateNumber: `MAR-${i + 1}`,
+      licensePlateNumberCountryCode: 'D',
+      kba: null,
+      make: 'Toyota',
+      model: `Corolla ${i + 1}`,
+      generation: `gen-${i + 1}`,
+      type: `type-${i + 1}`,
+      image: 'https://example.com/toyota-corolla.jpg',
+    },
+  },
+}));
+
+const unassignedEvents: CalendarEvent[] = Array.from({ length: 10 }, (_, i) => ({
+  id: `unassigned-${i + 1}`,
+  title: `Task ${i + 1}`,
+  start: new Date(`2025-01-${(i + 10).toString().padStart(2, '0')}T15:00:00`),
+  end: new Date(`2025-01-${(i + 10).toString().padStart(2, '0')}T16:30:00`),
+  description: `Unassigned task ${i + 1}`,
+  allDay: false,
+  break: false,
+  cardData: {
+    id: `card-unassigned-${i + 1}`,
+    lastChange: `2025-01-${(i + 9).toString().padStart(2, '0')}T15:00:00.000Z`,
+    pickUpDate: `2025-01-${(i + 10).toString().padStart(2, '0')}T15:00:00.000Z`,
+    dropOffDate: `2025-01-${(i + 10).toString().padStart(2, '0')}T16:30:00.000Z`,
+    assignee: undefined,
+    assignedDate: `2025-01-${(i + 10).toString().padStart(2, '0')}T15:00:00.000Z`,
+    status: 1,
+    position: i,
+    estimateId: `est-unassigned-${i + 1}`,
+    confirmed: false,
+    emailId: `email-unassigned-${i + 1}`,
+    removed: false,
+    title: `Unassigned Task ${i + 1}`,
+    customer: {
+      id: `customer-unassigned-${i + 1}`,
+      email: `unassigned${i + 1}@example.com`,
+      name: `Customer ${i + 1}`,
+      phoneNumber: `+98765432${i + 1}`,
+    },
+    vehicle: {
+      id: `vehicle-unassigned-${i + 1}`,
+      contactPerson: `customer-unassigned-${i + 1}`,
+      vin: null,
+      licensePlateNumber: `MAR-IE-${i + 1}`,
+      licensePlateNumberCountryCode: 'D',
+      kba: null,
+      make: 'Ford',
+      model: `Focus ${i + 1}`,
+      generation: `gen-un-${i + 1}`,
+      type: `type-un-${i + 1}`,
+      image: 'https://example.com/ford-focus.jpg',
+    },
+  },
+}));
+
+export const dummyEvents: CalendarEvent[] = [...breakEvents, ...assignedEvents, ...unassignedEvents];

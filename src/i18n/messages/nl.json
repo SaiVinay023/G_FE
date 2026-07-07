@@ -1,0 +1,766 @@
+{
+  "common": {
+    "saveChanges": "Wijzigingen opslaan",
+    "saving": "Opslaan...",
+    "creating": "Aanmaken...",
+    "next": "Volgende",
+    "skip": "Overslaan",
+    "error": "Fout"
+  },
+  "LocaleSwitcher": {
+    "language": "Taal"
+  },
+  "EmployeeCreateForm": {
+    "clerkErrors": {
+      "form_password_pwned": "Het wachtwoord werd gevonden in een online database. Kies een ander wachtwoord.",
+      "form_identifier_exists": "E-mailadres of telefoonnummer zijn al in gebruik",
+      "unknown": "Er is een onbekende fout opgetreden bij het aanmaken van de gebruiker"
+    },
+    "nameLabel": "Naam",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefoon",
+    "passwordLabel": "Wachtwoord",
+    "passwordRepeatLabel": "Herhaal wachtwoord",
+    "submitButton": "Creëren",
+    "validation": {
+      "emailAlreadyExists": "Er bestaat al een gebruiker met dit e-mailadres",
+      "emailInvalid": "E-mail ongeldig.",
+      "phoneRequired": "Telefoonnummer is vereist",
+      "phoneAlreadyExists": "Er bestaat al een gebruiker met dit nummer.",
+      "phoneInvalid": "Telefoonnummer is ongeldig",
+      "required": "Dit is vereist",
+      "nameTooShort": "De minimale naamlengte moet 4 zijn",
+      "passwordTooShort": "Wachtwoord is niet lang genoeg",
+      "passwordsDontMatch": "Wachtwoord komt niet overeen"
+    }
+  },
+  "SocialButton": {
+    "gdprRequired": "Accepteer de Algemene Voorwaarden en het Privacybeleid om door te gaan"
+  },
+  "DeleteEmployeeButton": {
+    "buttonLabel": "Verwijderen",
+    "error": "Er is iets misgegaan bij het verwijderen van de medewerker",
+    "success": "De medewerker is succesvol verwijderd"
+  },
+  "ShopUsersPage": {
+    "pageTitle": "Medewerkers",
+    "addEmployeeHeading": "Medewerker toevoegen",
+    "columnTitle": {
+      "name": "Naam",
+      "action": "Actie"
+    }
+  },
+  "QuickShareModal": {
+  "title": "Afspraakbevestiging versturen",
+  "description": "Selecteer een kanaal om de afspraakbevestiging te versturen",
+  "tabs": {
+    "whatsapp": "WhatsApp",
+    "sms": "SMS",
+    "email": "E-mail"
+  },
+  "fields": {
+    "phone": "Telefoonnummer",
+    "email": "E-mail",
+    "subject": "Onderwerp",
+    "body": "Bericht",
+    "subjectDefault": "Afspraak voor service",
+    "bodyDefault": "Beste klant,\n\nWe zijn verheugd u te kunnen helpen met uw autobehoeften! Om uw afspraak te boeken, kunt u tegelijkertijd op de onderstaande lijst."
+  },
+  "buttons": {
+    "cancel": "Annuleren",
+    "send": "Versturen",
+    "sending": "Wordt verzonden..."
+  }
+},
+  "Today": {
+    "title": "Vandaag",
+    "expected": "Verwacht",
+    "inHouse": "In eigen beheer",
+    "inProgress": "In uitvoering",
+    "ready": "Klaar",
+    "pickedUp": "Opgehaald",
+    "onHold": "In de wacht",
+    "unassigned": "Niet toegewezen"
+  },
+  "Scheduling": {
+    "title": "Planning",
+    "general": "Algemeen",
+    "unassigned": "Niet toegewezen",
+    "monday": "Maandag",
+    "tuesday": "Dinsdag",
+    "wednesday": "Woensdag",
+    "thursday": "Donderdag",
+    "friday": "Vrijdag",
+    "saturday": "Zaterdag",
+    "sunday": "Zondag"
+  },
+  "Estimates": {
+    "title": "Schattingen",
+    "allestimates": "Alle schattingen",
+    "estimateDetails": "Schatting details",
+    "date": "Datum",
+    "topic": "Onderwerp",
+    "client": "Cliënt",
+    "plate": "Bord",
+    "amount": "Hoeveelheid",
+    "allStatuses": "Alle statussen",
+    "status": "Status",
+    "pending": "In behandeling",
+    "approved": "Goedgekeurd",
+    "declined": "Afgewezen",
+    "newEstimate": "Nieuwe schatting"
+  },
+  "Canned": {
+    "title": "Ingeblikt",
+    "pageTitle": "Ingeblikte banen",
+    "all": "Alle",
+    "createNewCannedJob": "Nieuwe ingeblikte taak maken",
+    "favorites": "Favorieten",
+    "dontHave": "U heeft nog geen standaardtaken",
+    "inspections": "Inspecties",
+    "oilService": "Oliedienst",
+    "upsellServices": "Upsell-diensten",
+    "Mounting": "Montage",
+    "SeasonalChange": "Seizoensgebonden verandering",
+    "Services": "Diensten",
+    "Assembly": "Montage"
+  },
+  "createCanned": {
+    "title": "Ingeblikt",
+    "pageTitle": "Ingeblikte banen",
+    "newGroup": "Nieuwe categorie",
+    "createJob": "Maak een baan",
+    "createCannedJob": "Maak een standaardtaak",
+    "serviceGroupDescription": "Service- en/of werkbeschrijving",
+    "serviceDescription": "Dienstbeschrijving",
+    "service": "Dienst",
+    "part": "Deel",
+    "cost": "Kosten",
+    "hours": "Uur",
+    "QTY": "AANTAL",
+    "total": "Totaal",
+    "price": "Prijs",
+    "partDescription": "Onderdeel-/servicebeschrijving"
+  },
+  "customers": {
+    "title": "Klanten",
+    "allCustomers": "Alle klanten",
+    "name": "Naam",
+    "phone": "Telefoon",
+    "licensePlate": "Kentekenplaat",
+    "sort": "Soort",
+    "customerDetails": "Klantgegevens",
+    "overview": "Overzicht",
+    "workHistory": "Werkgeschiedenis",
+    "messages": "Berichten",
+    "templates": "Sjablonen",
+    "communications": "Communicatie",
+    "garage": "Garage",
+    "noVehicles": "Geen voertuigen gevonden.",
+    "customerUpdated": "Klant bijgewerkt",
+    "loading": "Laden…",
+    "failedToLoad": "Klant kon niet worden geladen",
+    "notFound": "Klant niet gevonden"
+  },
+  "CreateCustomer": {
+    "title": "Klant aanmaken",
+    "steps": {
+      "contactinfo": "Contactgegevens",
+      "vehicleinfo": "Voertuiginformatie"
+    },
+    "personalInfo": "Persoonlijke gegevens",
+    "firstName": "Voornaam",
+    "lastName": "Achternaam",
+    "contactInfo": "Contactgegevens",
+    "email": "E-mailadres",
+    "phone": "Telefoonnummer",
+    "addressInfo": "Adresgegevens",
+    "addressLine1": "Adresregel 1",
+    "addressLine1Placeholder": "Straat en huisnummer",
+    "addressLine2": "Adresregel 2 (optioneel)",
+    "addressLine2Placeholder": "Appartement, verdieping, etc. (optioneel)",
+    "city": "Stad",
+    "zipcode": "Postcode",
+    "country": "Land",
+    "licenseInfo": "Kentekeninformatie",
+    "licenseCountry": "Kentekenland",
+    "licensePlate": "Kenteken",
+    "licensePlatePlaceholder": "Voer kenteken in",
+    "vehicleSpecs": "Voertuigspecificaties",
+    "make": "Merk",
+    "selectMake": "Selecteer merk",
+    "model": "Model",
+    "selectModel": "Selecteer model",
+    "generation": "Generatie",
+    "selectGeneration": "Selecteer generatie",
+    "type": "Type",
+    "selectType": "Selecteer type",
+    "additionalVehicleInfo": "Aanvullende voertuiggegevens",
+    "vin": "VIN",
+    "kba": "KBA-nummer",
+    "wheelOptions": "Wielopties",
+    "addVehicle": "Voertuig toevoegen"
+  },
+  "Settings": {
+    "title": "Winkelinstellingen",
+    "shopName": "Winkelnaam",
+    "shopEmail": "Winkel-e-mail",
+    "shopPhone": "Telefoonnummer winkel",
+    "settings": "Instellingen",
+    "zipCode": "Postcode",
+    "country": "Land",
+    "address": "Adres",
+    "city": "Stad",
+    "uploadLogo": "Logo uploaden",
+    "changeLogo": "Logo wijzigen",
+    "noLogo": "Geen logo geüpload"
+  },
+  "Users": {
+    "title": "Gebruikers",
+    "employees": "Medewerkers",
+    "addEmploee": "Werknemer toevoegen",
+    "password": "Wachtwoord",
+    "repeatPassword": "Herhaal wachtwoord",
+    "create": "Creëren",
+    "action": "Actie"
+  },
+  "Single": {
+    "search": "Zoekopdracht",
+    "createCustomer": "Klant aanmaken",
+    "createEstimate": "Schatting maken",
+    "customers": "Klanten",
+    "products": "Producten",
+    "newVehicle": "Nieuw voertuig",
+    "newCustomer": "Nieuwe klant",
+    "empty": "Leeg",
+    "clear": "Duidelijk",
+    "edit": "Bewerking",
+    "delete": "Verwijderen",
+    "copy": "Kopiëren",
+    "serviceTitle": "Diensttitel",
+    "customerComments": "Opmerkingen van klanten",
+    "subTotal": "Subtotaal",
+    "discount": "Korting",
+    "editTotal": "Totaal bewerken",
+    "discard": "Weggooien",
+    "save": "Redden",
+    "newTotal": "Nieuw totaal",
+    "details": "Details",
+    "collapse": "Instorten"
+  },
+  "Sidebar": {
+    "today": "Vandaag",
+    "scheduling": "Planning",
+    "estimates": "Schattingen",
+    "canned": "Ingeblikt",
+    "customers": "Klanten",
+    "settings": "Instellingen",
+    "users": "Gebruikers",
+    "chat": "Chat",
+    "collapse": "Instorten",
+    "calendar": "Kalender"
+  },
+  "Added": {
+    "unknownError": "Er is een onbekende fout opgetreden!",
+    "shopUpdated": "Winkel bijgewerkt",
+    "Loading": "Laden",
+    "internalError": "Er is een interne fout opgetreden",
+    "vatRate": "BTW-tarief",
+    "logo": "Logo",
+    "welcomeCarsu": "Welkom bij Carsu",
+    "signoutToComplete": "U moet zich afmelden om de registratie te voltooien",
+    "signoutFirst": "Meld u eerst af!",
+    "signOut": "Meld u af",
+    "googleSignUp": "Meld u aan met Google",
+    "microsoftSignUp": "Meld u aan met Microsoft",
+    "consentCarsu": "U stemt in met de auto",
+    "termsCondition": "Algemene voorwaarden",
+    "privacyPolicy": "Privacybeleid",
+    "processingData": "en de verwerking van gegevens in overeenstemming met de AVG",
+    "letsGo": "Laten we gaan",
+    "logoError": "Fout bij uploaden van logo",
+    "wrongLogo": "Er is iets misgegaan bij het uploaden van uw logo. Eenmaal geregistreerd, kunt u een logo vanuit uw profiel uploaden",
+    "vatNumber": "BTW-nummer",
+    "vatRateSelect": "Selecteer BTW-tarief",
+    "addressLine1": "Adresregel 1",
+    "addressLine2": "Adresregel 2",
+    "fileTooLarge": "Bestandsgrootte is te groot! Maximaal 1mb",
+    "fileNotSupported": "Bestandstype wordt niet ondersteund. Alleen afbeeldingen!",
+    "finish": "Finish",
+    "errorLoading": "Fout bij het laden van producten",
+    "monthlyVolume": "Maandelijks volume",
+    "comingSoon": "Binnenkort beschikbaar",
+    "deliveries": "Leveringen",
+    "expectedToday": "Vandaag verwacht",
+    "late": "Laat",
+    "searchClient": "Zoek klant",
+    "viewEstimate": "Bekijk schatting",
+    "send": "Versturen",
+    "schedule": "Schema",
+    "duplicate": "Duplicaat",
+    "archive": "Archief",
+    "removeGroup": "Groep verwijderen",
+    "editVehicle": "Voertuig bewerken",
+    "cancel": "Annuleren",
+    "approve": "Goedkeuren",
+    "undoAction": "Weet je het zeker? Je kunt deze actie achteraf niet meer ongedaan maken.",
+    "errorLoadingCustomers": "Fout bij het laden van klanten",
+    "editCanned": "BEWERK EEN INGEBRUIKTE TAAK",
+    "updateJob": "Taak bijwerken",
+    "submit": "Indienen",
+    "createdOn": "Gemaakt op",
+    "addVehicle": "Voertuig toevoegen",
+    "requiredInformation": "Voer de vereiste gegevens in om een ​​klant aan te maken",
+    "previous": "Vorig",
+    "next": "Volgende",
+    "emailBlank": "E-mail mag niet leeg zijn",
+    "licensePlateCountry": "Kentekenland",
+    "selectMake": "Selecteer Maken",
+    "selectModel": "Selecteer Model",
+    "model": "Model",
+    "garage": "Garage",
+    "reviewDetails": "Controleer de klantgegevens op juistheid",
+    "make": "Maken",
+    "scheduleEstimate": "Schemaschatting voor",
+    "dropOff": "Afzetten",
+    "pickUp": "Ophalen",
+    "previewEstimate": "Voorbeeldschatting",
+    "serviceWork": "Service- en/of werkbeschrijving",
+    "removeCategory": "Categorie verwijderen",
+    "addCategory": "Categorie toevoegen",
+    "createnewCategory": "Maak een nieuwe categorie",
+    "errorLoadingCategories": "Fout bij het laden van categorieën",
+    "others": "Anderen",
+    "contactInfo": "Contactgegevens",
+    "vehicleInfo": "Voertuiginformatie",
+    "requiredInfoCustomer": "Voer de vereiste gegevens in om een ​​klant aan te maken",
+    "addService": "Dienst toevoegen",
+    "close": "Dichtbij",
+    "vehicle": "Voertuig",
+    "vehicles": "Voertuigen",
+    "review": "Beoordeling",
+    "deleting": "Verwijderen..."
+  },
+  "Calendar": {
+    "todayBtnTitle": "Vandaag",
+    "dayGridMonth": "maand",
+    "timeGridWeek": "week",
+    "timeGridDay": "dag",
+    "quickShareBtn": "Snel delen"
+  },
+  "selectChannel": "Selecteer het/de kanaal(en) waarnaar u de afspraakbevestiging wilt verzenden",
+  "sendAppointmentConfirmation": "Afspraakbevestiging naar klant sturen",
+  "Appointment": {
+    "error": "Deze link is niet langer geldig. Neem contact met ons op via",
+    "body": {
+      "title": "Beste",
+      "body": "Bedankt dat u een dienst bij ons heeft geboekt.",
+      "contact": "Met vriendelijke groeten"
+    },
+    "form": {
+      "fieldName": {
+        "label": "Jouw naam",
+        "placeholder": "Jouw naam",
+        "errorMessageBlank": "Veld is verplicht"
+      },
+      "fieldEmail": {
+        "label": "Uw e-mail",
+        "placeholder": "Uw e-mail",
+        "errorMessageBlank": "E-mail mag niet leeg zijn",
+        "errorMessageInvalid": "E-mail ongeldig"
+      },
+      "fieldMobile": {
+        "label": "Jouw mobiel",
+        "placeholder": "Jouw mobiel"
+      },
+      "fieldComment": {
+        "label": "Opmerkingen",
+        "placeholder": "Opmerkingen: Voeg informatie toe over de gevraagde dienst"
+      }
+    },
+    "calendarForm": {
+      "title": "Plan uw afspraak",
+      "datePicker": {
+        "title": "Selecteer de datum",
+        "errorMessageBlank": "Datum is vereist"
+      },
+      "timePicker": {
+        "title": "Selecteer een datum uit de kiezer",
+        "errorMessageBlank": "Er is tijd nodig"
+      },
+      "buttonConfirm": "Bevestigen",
+      "buttonCancel": "Annuleren"
+    }
+  },
+  "shopFormTimeRange": {
+    "openingTimeLabel": "Openingstijd",
+    "closingTimeLabel": "Sluitingstijd",
+    "selectOpeningTime": "Selecteer openingstijd",
+    "selectClosingTime": "Selecteer sluitingstijd",
+    "timeValidationError": "De sluitingstijd moet na de openingstijd liggen",
+    "requiredField": "Dit is vereist"
+  },
+  "shopFormTimeRangeModal": {
+    "buttonTitle": "Werkroosters bijwerken",
+    "cancelButtonTitle": "Annuleren",
+    "saveButtonTitle": "Redden",
+    "modalTitle": "Update tijdbereik",
+    "addBreak": "Pauze toevoegen",
+    "removeBreak": "Pauze verwijderen",
+    "breakStartErrorMessage": "Zowel de begin- als de eindtijd van de pauze zijn vereist.",
+    "breakEndErrorMessage": "De eindtijd van de pauze moet na de begintijd van de pauze liggen",
+    "startTimeRequiredErrorMessage": "Starttijd is vereist",
+    "endTimeRequiredErrorMessage": "Eindtijd is vereist",
+    "breakStartRequiredErrorMessage": "Pauzestart is vereist",
+    "breakEndRequiredErrorMessage": "Pauze-einde is vereist",
+    "startPlaceholder": "Begintijd",
+    "endPlaceholder": "Eindtijd"
+  },
+  "assignee": "Cessionaris",
+  "customer": "Klant",
+  "resize": "Formaat wijzigen",
+  "CarCard": {
+    "done": "Klaar"
+  },
+  "shopId": "Winkel-id",
+  "ConfirmationError": {
+    "nbsp": "Nbsp"
+  },
+  "ConfirmedAppointment": {
+    "nbsp": "Nbsp",
+    "thank_you": "Bedankt",
+    "appointment_confirmed": "Afspraak bevestigd"
+  },
+  "template": {
+    "dear": "Beste",
+    "please_find_our_estimates_below_for": "Hieronder vindt u onze schattingen",
+    "for_your": "Voor jouw",
+    "with_license_plate": "Met Kentekenplaat",
+    "kind_regards": "Met vriendelijke groeten",
+    "click_here_to_view_estimate": "Klik hier om de schatting te bekijken"
+  },
+  "FancyNav": {
+    "search": "Zoekopdracht",
+    "done": "Klaar"
+  },
+  "AssignSelect": {
+    "unassigned": "Niet toegewezen"
+  },
+  "LicensePlate": {
+    "xx": "Xx"
+  },
+  "language": "Taal",
+  "Messages": {
+    "no_messages_found": "Geen berichten gevonden",
+    "tabs": "Tabbladen"
+  },
+  "MessagesForm": {
+    "uploading": "Uploaden",
+    "uploaded": "Geüpload",
+    "try_again": "Probeer het opnieuw",
+    "upload_image": "Afbeelding uploaden",
+    "reset": "Opnieuw instellen",
+    "send_message": "Bericht verzenden"
+  },
+  "SendMessageModal": {
+    "send_new_message": "Nieuw bericht verzenden",
+    "type_your_message_here": "Typ hier uw bericht",
+    "cancel": "Annuleren",
+    "send": "Versturen"
+  },
+  "CollapseButton": {
+    "collapse_and_expand_navbar": "Navigatiebalk samenvouwen en uitvouwen"
+  },
+  "tab": "Tab",
+  "messages": "Berichten",
+  "NotificationPopup": {
+    "no_new_messages": "Geen nieuwe berichten"
+  },
+  "RequestAppointmentForm": {
+    "whatsapp": "WhatsApp",
+    "sms": "Sms",
+    "email": "E-mail",
+    "enter_email": "Voer e-mailadres in",
+    "subject": "Onderwerp",
+    "body": "Lichaam"
+  },
+  "addPaymentMethod": "Betaalmethode toevoegen",
+  "ShopRegistration": {
+    "loading": "Laden",
+    "an_internal_error_occurred": "Er is een interne fout opgetreden",
+    "shop_name": "Winkelnaam",
+    "shop_number": "Winkelnummer",
+    "address_line_1": "Adresregel 1",
+    "address_line_2": "Adresregel 2",
+    "zipcode": "Postcode",
+    "city": "Stad",
+    "vat_number": "BTW-nummer",
+    "select_vat_rate": "Selecteer Btw-tarief",
+    "logo": "Logo",
+    "username": "Gebruikersnaam",
+    "user_e_mail_address": "E-mailadres van gebruiker",
+    "user_phone_number": "Telefoonnummer van gebruiker",
+    "promo_code": "Promotiecode",
+    "previous": "Vorig",
+    "next": "Volgende"
+  },
+  "TimeRangeForm": {
+    "can_be_modified_in_the_settings": "Kan worden gewijzigd in de instellingen"
+  },
+  "Form": {
+    "break": "Pauze"
+  },
+  "CreateEstimateForm": {
+    "category": "Categorie"
+  },
+  "category": "Categorie",
+  "page": {
+    "km": "km",
+    "vat": "Vat",
+    "no_work_history_available": "Geen werkgeschiedenis beschikbaar",
+    "no_estimates_history_available_create_one": "Geen schattingsgeschiedenis beschikbaar Maak er één",
+    "create_new_customer": "Nieuwe klant aanmaken",
+    "a_z": "EEN Z",
+    "z_a": "Van A",
+    "shop": "Winkel",
+    "loading": "Laden",
+    "user": "Gebruiker",
+    "view_estimate": "Bekijk schatting",
+    "create_estimate": "Schatting maken",
+    "create_new_estimate": "Maak een nieuwe schatting",
+    "search_client": "Zoek klant",
+    "done": "Klaar",
+    "search_plate": "Zoekplaat",
+    "concept": "Concept",
+    "sent": "Verstuurd",
+    "scheduled": "Gepland",
+    "canceled": "Geannuleerd",
+    "phone_number": "Telefoonnummer",
+    "vat_rate": "Btw-tarief",
+    "logo": "Logo",
+    "update": "Update",
+    "name": "Naam",
+    "register_phone_number": "Telefoonnummer registreren",
+    "sync_template": "Synchronisatiesjabloon",
+    "disconnect_whatsapp": "Koppel Whatsapp los",
+    "connect_your_whatsapp_business_account": "Koppel uw WhatsApp Business-account",
+    "click_to_connect": "Klik om verbinding te maken",
+    "whatsapp_requires_a_facebook_business_account": "Whatsapp vereist een Facebook Business-account",
+    "you_can_connect_an_existing_account_or_set_up_a_new_business_account": "U kunt een bestaand account koppelen of een nieuw zakelijk account instellen",
+    "upload_customers": "Klanten uploaden",
+    "add_payment_method": "Betaalmethode toevoegen",
+    "success": "Succes",
+    "welcome_to_the_complete_software_solution_for_your_garage": "Welkom bij de complete softwareoplossing voor uw garage"
+  },
+  "AddVehicleModal": {
+    "add_vehicle": "Voertuig toevoegen"
+  },
+  "EditVehicleForm": {
+    "select_option": "Selecteer Optie",
+    "generation": "Generatie",
+    "select_generation": "Selecteer Generatie",
+    "type": "Type",
+    "select_type": "Selecteer Type",
+    "wheel_options": "Wielopties",
+    "select_wheel_option": "Selecteer Wieloptie"
+  },
+  "EditVehicleModal": {
+    "vehicle": "Voertuig"
+  },
+  "Garage": {
+    "done": "Klaar"
+  },
+  "sort": "Soort",
+  "ReviewStep": {
+    "review_the_customer_details_for_accuracy": "Controleer de klantgegevens op nauwkeurigheid",
+    "wheel_options": "Wielopties"
+  },
+  "VehicleForm": {
+    "select_option": "Selecteer Optie",
+    "generation": "Generatie",
+    "select_generation": "Selecteer Generatie",
+    "type": "Type",
+    "select_type": "Selecteer Type",
+    "wheel_options": "Wielopties",
+    "select_wheel_option": "Selecteer Wieloptie"
+  },
+  "workCardId": "Werkkaart-ID",
+  "SendEstimateDrawer": {
+    "whatsapp": "WhatsApp",
+    "sms": "Sms",
+    "email": "E-mail",
+    "subject": "Onderwerp",
+    "body": "Lichaam"
+  },
+  "CannedJobsModal": {
+    "search": "Zoekopdracht"
+  },
+  "CreateTicketForm": {
+    "service_title": "Diensttitel",
+    "kms": "km",
+    "customer_comments": "Klant opmerkingen",
+    "service_group_description": "Beschrijving servicegroep",
+    "category": "Categorie",
+    "remove_group": "Groep verwijderen",
+    "new_category": "Nieuwe categorie",
+    "new_group": "Nieuwe groep",
+    "sub_total": "Subtotaal",
+    "discount": "Korting",
+    "vat": "Vat",
+    "total": "Totaal",
+    "edit_total": "Totaal bewerken",
+    "close": "Dichtbij",
+    "new_total": "Nieuw totaal"
+  },
+  "duplicate": "Duplicaat",
+  "ServicesForm": {
+    "btn": "Btn"
+  },
+  "preview": "Voorbeeld",
+  "communicationForm": {
+    "loading": "Laden"
+  },
+  "token": "Token",
+  "confirm": {
+    "confirm_all_schedule": "Bevestig alle schema's",
+    "selected_schedule": "Geselecteerd schema",
+    "no_thank_you": "Nee, bedankt"
+  },
+  "schedule": {
+    "schedule_you_appointment": "Plan uw afspraak",
+    "please_select_the_date_and_time": "Selecteer de datum en tijd",
+    "hours": "Uur",
+    "cancel": "Annuleren",
+    "confirm": "Bevestigen"
+  },
+  "success": "Succes",
+  "ReviewEstimate": {
+    "km": "km",
+    "vat": "Vat"
+  },
+  "x-url": "X-URL",
+  "not-found": {
+    "404_not_found": "404 Niet gevonden"
+  },
+  "deliveriesCard": {
+    "deliveries": "Leveringen",
+    "expected_today": "Vandaag verwacht",
+    "late": "Laat"
+  },
+  "monthlyVolumeCard": {
+    "monthly_volume": "Maandelijks volume",
+    "comming_soon": "Binnenkort beschikbaar"
+  },
+  "searcCard": {
+    "error_loading_customers": "Fout bij het laden van klanten",
+    "clear": "Duidelijk"
+  },
+  "RegistrationLayout": {
+    "welcome_to_carsu": "Welkom bij Carsu"
+  },
+  "connectToFacebookModal": {
+    "whatsapp_usage_rules": "WhatsApp-gebruiksregels",
+    "the_first_1_000_messages_each_month_are_free_after_that_they_will_cost_0_13_per_message_paid_to_meta_the_owner_of_whatsapp_for_more_information_we_refer_to_the": "De eerste 1.000 berichten per maand zijn gratis, daarna kosten ze 0,13 per bericht. Betaald aan Meta, de eigenaar van WhatsApp. Voor meer informatie verwijzen we naar de",
+    "whatsapp_business_pages": "Whatsapp-bedrijfspagina's",
+    "in_order_to_enjoy_the_full_potential_of_carsu_customer_communications_we_highly_recommend_for_you_to_add_a_payment_method_when_requested_during_the_sign_up_process_this_enables_you_to_send_messages_directly_from_carsu_on_your_own_number": "Om het volledige potentieel van Carsu-klantcommunicatie te kunnen benutten, raden wij u ten zeerste aan om tijdens het aanmeldingsproces een betaalmethode toe te voegen wanneer dit wordt gevraagd. Hierdoor kunt u berichten rechtstreeks vanuit Carsu op uw eigen nummer verzenden",
+    "connect_later": "Sluit later aan",
+    "connect_now": "Maak nu verbinding"
+  },
+  "code": "Code",
+  "state": "Staat",
+  "input": "Invoer",
+  "error": "Fout",
+  "buttonLabel": "Knoplabel",
+  "pageTitle": "Paginatitel",
+  "addEmployeeHeading": "Voeg een werknemersrubriek toe",
+  "columnTitle": {
+    "name": "Naam",
+    "action": "Actie"
+  },
+  "BellIndicator": {
+    "done": "Klaar",
+    "the_board_has_changed_since_you_loaded_the_page_click_here_to_refresh_the_page": "Het bord is veranderd sinds u de pagina heeft geladen. Klik hier om de pagina te vernieuwen",
+    "your_board_is_up_to_date": "Uw bord is up-to-date"
+  },
+  "CardDrawer": {
+    "ticket_details": "Ticketgegevens",
+    "drop_off": "Afzetten",
+    "pick_up": "Ophalen",
+    "view_estimate": "Bekijk schatting"
+  },
+  "CardLoading": {
+    "loading": "Laden"
+  },
+  "KanBAM": {
+    "an_error_occurred_loading_the_board": "Er is een fout opgetreden bij het laden van het bord",
+    "try_to": "Probeer het",
+    "reload_the_page": "Laad de pagina opnieuw",
+    "or_contact_support": "Of neem contact op met ondersteuning"
+  },
+  "SendCustomerModal": {
+    "send_whatsapp_to_customer_to_inform_the_car_can_be_picked_up": "Stuur Whatsapp naar de klant om te laten weten dat de auto kan worden opgehaald",
+    "yes": "Ja",
+    "no": "Nee"
+  },
+  "newUser": "Nieuwe gebruiker",
+  "SelectCustomerVehicleModal": {
+    "select_a_customer": "Selecteer Een klant",
+    "search": "Zoekopdracht",
+    "error_loading_customers": "Fout bij het laden van klanten",
+    "start_estimate": "Schatting starten"
+  },
+  "svix-id": "Svix-id",
+  "svix-timestamp": "Svix-tijdstempel",
+  "svix-signature": "Svix-handtekening",
+  "stripe-signature": "Gestreepte handtekening",
+  "Authorization": "Autorisatie",
+  "hub": {
+    "mode": "Modus",
+    "verify_token": "Token verifiëren",
+    "challenge": "Uitdaging"
+  },
+  "de-DE": "Door DE",
+  "components": {
+    "button": {
+      "subscribe": "Abonnieren",
+      "add_payment_method": "Betaalmethode toevoegen",
+      "let_s_go": "Laten we gaan",
+      "use_promocode": "Gebruik promotiecode",
+      "resume_subscription": "Abonnement hervatten",
+      "cancel_subscription": "Abonnement annuleren",
+      "start_free_trial": "Gratis proefperiode starten",
+      "apply": "Toepassen"
+    },
+    "heading": {
+      "thank_you": "Bedankt,",
+      "appointment_confirmed": "Afspraak bevestigd"
+    },
+    "p": {
+      "dear_customer": "Beste klant,",
+      "we_re_excited_to_assist_you_with_your_car_needs_to": "Wij helpen u graag met uw autobehoeften! Om uw te boeken\n                afspraak, klik eenvoudig op de onderstaande link. Wij kijken ernaar uit\n                tot ziens.",
+      "kind_regards": "Met vriendelijke groeten,",
+      "hello": "Hallo",
+      "your_free_trial_will_end_in": "Uw gratis proefperiode eindigt over",
+      "on": "(op",
+      "to_continue_using_our_services_without_interruptio": "Als u onze diensten zonder onderbreking wilt blijven gebruiken, voegt u uw\n          betaalmethode.",
+      "if_you_don_t_add_a_payment_method_your_subscriptio": "Als u geen betaalmethode toevoegt, blijft uw abonnement geldig\n          geannuleerd wanneer de proefperiode eindigt."
+    },
+    "a": {
+      "click_here": "Klik hier",
+      "update_payment_method": "Betaalmethode bijwerken"
+    },
+    "text": {
+      "conversations_can_only_be_initiated_by_your_custom": "Gesprekken kunnen alleen door uw klanten worden geïnitieerd, maar dat doet u niet\n            In staat zijn om een ​​nieuw bericht met klanten te initiëren totdat u dat hebt gedaan\n            Een betaalmethode toegevoegd of uw bestaande betaalmethode bijgewerkt",
+      "or": "of"
+    },
+    "h1": {
+      "your_free_trial_is_ending_soon": "Uw gratis proefperiode eindigt binnenkort"
+    },
+    "div": {
+      "carsu_all_rights_reserved": "Carsu. Alle rechten voorbehouden."
+    }
+  },
+  "dynamic": {
+    "finish_registration_for": "Registratie voor {email} voltooien"
+  }
+}

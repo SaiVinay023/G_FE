@@ -1,0 +1,774 @@
+{
+  "common": {
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "creating": "Creating...",
+    "next": "Next",
+    "skip": "Skip",
+    "error": "Error"
+  },
+  "LocaleSwitcher": {
+    "language": "Language"
+  },
+  "EmployeeCreateForm": {
+    "firstNameLabel": "First Name",
+    "lastNameLabel": "Last Name",
+    "emailLabel": "Email Address",
+    "phoneLabel": "Phone Number",
+    "addressLine1Label": "Address Line 1",
+    "addressLine2Label": "Address Line 2 (Optional)",
+    "zipcodeLabel": "Zip Code",
+    "cityLabel": "City",
+    "countryLabel": "Country",
+    "roleLabel": "Role",
+    "passwordLabel": "Password",
+    "passwordRepeatLabel": "Repeat Password",
+    "submitButton": "Create Employee",
+    "creating": "Creating...",
+    "success": "Employee created successfully!",
+    "validation": {
+      "required": "This field is required",
+      "minLength": "Minimum length is 2 characters",
+      "emailInvalid": "Invalid email address",
+      "phoneInvalid": "Invalid phone number",
+      "passwordTooShort": "Password must be at least 6 characters",
+      "passwordsDontMatch": "Passwords do not match"
+    }
+  },
+  "QuickShareModal": {
+  "title": "Send Appointment Confirmation",
+  "description": "Select a channel to send appointment confirmation",
+  "tabs": {
+    "whatsapp": "WhatsApp",
+    "sms": "SMS",
+    "email": "Email"
+  },
+  "fields": {
+    "phone": "Phone Number",
+    "email": "Email",
+    "subject": "Subject",
+    "body": "Body",
+    "subjectDefault": "Appointment for service",
+    "bodyDefault": "Dear customer,\n\nWe're excited to assist you with your car needs! To book your appointment simultaneously on the list below."
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "send": "Send",
+    "sending": "Sending..."
+  }
+},
+  "SocialButton": {
+    "gdprRequired": "To continue accept the Terms and Conditions and Privacy Policy"
+  },
+  "DeleteEmployeeButton": {
+    "buttonLabel": "Delete",
+    "error": "Something went wrong when deleting the employee",
+    "success": "Successfully deleted the employee"
+  },
+  "ShopUsersPage": {
+    "pageTitle": "Employees",
+    "addEmployeeHeading": "Add employee",
+    "columnTitle": {
+      "name": "Name",
+      "action": "Action"
+    }
+  },
+  "Today": {
+    "title": "Today",
+    "expected": "Expected",
+    "inHouse": "In-house",
+    "inProgress": "In-progress",
+    "ready": "Ready",
+    "pickedUp": "Picked up",
+    "onHold": "On hold",
+    "unassigned": "Unassigned"
+  },
+  "Scheduling": {
+    "title": "Scheduling",
+    "general": "General",
+    "unassigned": "Unassigned",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "Estimates": {
+    "title": "Estimates",
+    "allestimates": "All Estimates",
+    "estimateDetails": "Estimate Details",
+    "date": "Date",
+    "topic": "Topic",
+    "client": "Client",
+    "plate": "Plate",
+    "amount": "Amount",
+    "allStatuses": "All Statuses",
+    "status": "Status",
+    "pending": "Pending",
+    "approved": "Approved",
+    "declined": "Declined",
+    "newEstimate": "New Estimate"
+  },
+  "Canned": {
+    "title": "Canned",
+    "pageTitle": "Canned Jobs",
+    "all": "All",
+    "createNewCannedJob": "Create new canned job",
+    "favorites": "Favorites",
+    "dontHave": "You don't have any Canned Jobs yet",
+    "inspections": "Inspections",
+    "oilService": "Oil Service",
+    "upsellServices": "Upsell Services",
+    "Mounting": "Mounting",
+    "SeasonalChange": "Seasonal Change",
+    "Services": "Services",
+    "Assembly": "Assembly"
+  },
+  "createCanned": {
+    "title": "Canned",
+    "pageTitle": "Canned Jobs",
+    "newGroup": "New Category",
+    "createJob": "Create Job",
+    "createCannedJob": "Create Canned Job",
+    "serviceGroupDescription": "Service and/or Work Description",
+    "serviceDescription": "Service Description",
+    "service": "Service",
+    "part": "Part",
+    "cost": "Cost",
+    "hours": "Hours",
+    "QTY": "QTY",
+    "total": "Total",
+    "price": "Price",
+    "partDescription": "Part/Service Description",
+    "category": "Category",
+    "internalId": "Internal ID",
+    "description": "Description",
+    "actions": "Actions"
+  },
+  "customers": {
+    "title": "Customers",
+    "allCustomers": "All Customers",
+    "name": "Name",
+    "phone": "Phone",
+    "licensePlate": "License Plate",
+    "sort": "Sort",
+    "customerDetails": "Customer Details",
+    "overview": "Overview",
+    "workHistory": "Work History",
+    "messages": "Messages",
+    "templates": "Templates",
+    "communications": "Communications",
+    "garage": "Garage",
+    "noVehicles": "No vehicles found.",
+    "customerUpdated": "Customer Updated",
+    "loading": "Loading…",
+    "failedToLoad": "Failed to load customer",
+    "notFound": "Customer not found"
+  },
+  "Settings": {
+    "title": "Shop Settings",
+    "shopName": "Shop Name",
+    "shopEmail": "Shop Email",
+    "shopPhone": "Shop phone number",
+    "settings": "Settings",
+    "zipCode": "Zip code",
+    "country": "Country",
+    "address": "Address",
+    "city": "City",
+    "uploadLogo": "Upload Logo",
+    "changeLogo": "Change Logo",
+    "noLogo": "No logo uploaded"
+  },
+  "Users": {
+    "title": "Users",
+    "employees": "Employees",
+    "addEmploee": "Add Employee",
+    "password": "Password",
+    "repeatPassword": "Repeat password",
+    "create": "Create",
+    "action": "Action",
+    "addEmployee": "Add Employee"
+  },
+  "Single": {
+    "search": "Search",
+    "createCustomer": "Create Customer",
+    "createEstimate": "Create Estimate",
+    "customers": "Customers",
+    "products": "Products",
+    "newVehicle": "New Vehicle",
+    "newCustomer": "New Customer",
+    "empty": "Empty",
+    "clear": "Clear",
+    "edit": "Edit",
+    "delete": "Delete",
+    "copy": "Copy",
+    "serviceTitle": "Service Title",
+    "customerComments": "Customer comments",
+    "subTotal": "Sub Total",
+    "discount": "Discount",
+    "editTotal": "Edit Total",
+    "discard": "Discard",
+    "save": "Save",
+    "saving": "Saving...",
+    "newTotal": "New Total",
+    "details": "Details",
+    "collapse": "Collapse"
+  },
+  "Sidebar": {
+    "today": "Today",
+    "scheduling": "Scheduling",
+    "estimates": "Estimates",
+    "canned": "Canned",
+    "customers": "Customers",
+    "settings": "Settings",
+    "users": "Users",
+    "chat": "Chat",
+    "collapse": "Collapse",
+    "calendar": "Calendar"
+  },
+  "Added": {
+    "unknownError": "An unknown error occured!",
+    "shopUpdated": "Shop Updated",
+    "Loading": "Loading",
+    "internalError": "An internal error occured",
+    "vatRate": "VAT rate",
+    "logo": "Logo",
+    "deleting": "Deleting...",
+    "welcomeCarsu": "Welcome to carsu",
+    "signoutToComplete": "You need to sign out to complete the registration",
+    "signoutFirst": "Sign out first!",
+    "signOut": "Sign out",
+    "googleSignUp": "Sign up using Google",
+    "microsoftSignUp": "Sign up using Microsoft",
+    "consentCarsu": "You consent to the carsu",
+    "termsCondition": "Terms and Conditions",
+    "privacyPolicy": "Privacy Policy",
+    "processingData": "and the processing of data in accordance with GDPR",
+    "letsGo": "Let's Go",
+    "logoError": "Error uploading logo",
+    "wrongLogo": "Something went wrong uploading your logo. Once registered you can upload a logo from your profile",
+    "vatNumber": "VAT Number",
+    "vatRateSelect": "Select VAT rate",
+    "addressLine1": "Address Line 1",
+    "addressLine2": "Address Line 2",
+    "fileTooLarge": "File size is too large! 1mb maximum",
+    "fileNotSupported": "File type is not supported. Only images!",
+    "finish": "Finish",
+    "errorLoading": "Error Loading Products",
+    "monthlyVolume": "Monthly Volume",
+    "comingSoon": "Coming Soon",
+    "deliveries": "Deliveries",
+    "expectedToday": "Expected Today",
+    "late": "Late",
+    "searchClient": "Search Client",
+    "viewEstimate": "View Estimate",
+    "send": "Send",
+    "schedule": "Schedule",
+    "duplicate": "Duplicate",
+    "archive": "Archive",
+    "removeGroup": "Remove Group",
+    "editVehicle": "Edit Vehicle",
+    "cancel": "Cancel",
+    "approve": "Approve",
+    "undoAction": "Are you sure? You can't undo this action afterwards.",
+    "errorLoadingCustomers": "Error Loading Customers",
+    "editCanned": "EDIT CANNED JOB",
+    "updateJob": "Update Job",
+    "submit": "Submit",
+    "createdOn": "Created on ",
+    "addVehicle": "Add Vehicle",
+    "requiredInformation": "Enter the required information to create a customer",
+    "previous": "Previous",
+    "next": "Next",
+    "emailBlank": "Email cannot be blank",
+    "licensePlateCountry": "License Plate Country",
+    "selectMake": "Select Make",
+    "selectModel": "Select Model",
+    "model": "Model",
+    "garage": "Garage",
+    "reviewDetails": "Review the customer details for accuracy",
+    "make": "Make",
+    "scheduleEstimate": "Schedule Estimate for ",
+    "dropOff": "Drop Off",
+    "pickUp": "Pick up",
+    "previewEstimate": "Preview Estimate",
+    "serviceWork": "Service and/or Work Description",
+    "removeCategory": "Remove Category",
+    "addCategory": "Add Category",
+    "createnewCategory": "Create new Category",
+    "errorLoadingCategories": "Error Loading Categories",
+    "others": "Others",
+    "contactInfo": "Contact Info",
+    "vehicleInfo": "Vehicle Info",
+    "requiredInfoCustomer": "Enter the required information to create a customer",
+    "addService": "Add Service",
+    "close": "Close",
+    "vehicle": "Vehicle",
+    "vehicles": "Vehicles",
+    "review": "Review"
+  },
+  "Calendar": {
+    "todayBtnTitle": "today",
+    "dayGridMonth": "month",
+    "timeGridWeek": "week",
+    "timeGridDay": "day",
+    "quickShareBtn": "Quick Share"
+  },
+  "selectChannel": "Please select the channel(s) to send the appointment confirmation",
+  "sendAppointmentConfirmation": "Send Appointment Confirmation to Customer",
+  "Appointment": {
+    "error": "This link is no longer valid. Please contact us at",
+    "body": {
+      "title": "Dear",
+      "body": "Thank you for booking a service with us.",
+      "contact": "Kind regards"
+    },
+    "form": {
+      "fieldName": {
+        "label": "Your Name",
+        "placeholder": "Your Name",
+        "errorMessageBlank": "Field is required"
+      },
+      "fieldEmail": {
+        "label": "Your Email",
+        "placeholder": "Your Email",
+        "errorMessageBlank": "Email cannot be blank",
+        "errorMessageInvalid": "Email invalid"
+      },
+      "fieldMobile": {
+        "label": "Your Mobile",
+        "placeholder": "Your Mobile"
+      },
+      "fieldComment": {
+        "label": "Comments",
+        "placeholder": "Comments: Please add information about the requested service"
+      }
+    },
+    "calendarForm": {
+      "title": "Schedule your appointment",
+      "datePicker": {
+        "title": "Please select the date",
+        "errorMessageBlank": "Date is required"
+      },
+      "timePicker": {
+        "title": "Please select date from picker",
+        "errorMessageBlank": "Time is required"
+      },
+      "buttonConfirm": "Confirm",
+      "buttonCancel": "Cancel"
+    }
+  },
+  "shopFormTimeRange": {
+    "openingTimeLabel": "Opening Time",
+    "closingTimeLabel": "Closing Time",
+    "selectOpeningTime": "Select opening time",
+    "selectClosingTime": "Select closing time",
+    "timeValidationError": "Closing time must be after opening time",
+    "requiredField": "This is required"
+  },
+  "shopFormTimeRangeModal": {
+    "buttonTitle": "Update Work Schedules",
+    "cancelButtonTitle": "Cancel",
+    "saveButtonTitle": "Save",
+    "modalTitle": "Update Time Range",
+    "addBreak": "Add Break",
+    "removeBreak": "Remove Break",
+    "breakStartErrorMessage": "Both break start and end times are required.",
+    "breakEndErrorMessage": "Break end time must be after break start time",
+    "startTimeRequiredErrorMessage": "Start time is required",
+    "endTimeRequiredErrorMessage": "End time is required",
+    "breakStartRequiredErrorMessage": "Break start is required",
+    "breakEndRequiredErrorMessage": "Break end is required",
+    "startPlaceholder": "Start time",
+    "endPlaceholder": "End time"
+  },
+  "assignee": "Assignee",
+  "customer": "Customer",
+  "resize": "Resize",
+  "CarCard": {
+    "done": "Done"
+  },
+  "shopId": "Shop Id",
+  "ConfirmationError": {
+    "nbsp": "Nbsp"
+  },
+  "ConfirmedAppointment": {
+    "nbsp": "Nbsp",
+    "thank_you": "Thank You",
+    "appointment_confirmed": "Appointment Confirmed"
+  },
+  "template": {
+    "dear": "Dear",
+    "please_find_our_estimates_below_for": "Please Find Our Estimates Below For",
+    "for_your": "For Your",
+    "with_license_plate": "With License Plate",
+    "kind_regards": "Kind Regards",
+    "click_here_to_view_estimate": "Click Here To View Estimate"
+  },
+  "FancyNav": {
+    "search": "Search",
+    "done": "Done"
+  },
+  "AssignSelect": {
+    "unassigned": "Unassigned"
+  },
+  "LicensePlate": {
+    "xx": "Xx"
+  },
+  "language": "Language",
+  "Messages": {
+    "no_messages_found": "No Messages Found",
+    "tabs": "Tabs"
+  },
+  "MessagesForm": {
+    "uploading": "Uploading",
+    "uploaded": "Uploaded",
+    "try_again": "Try Again",
+    "upload_image": "Upload Image",
+    "reset": "Reset",
+    "send_message": "Send Message"
+  },
+  "SendMessageModal": {
+    "send_new_message": "Send New Message",
+    "type_your_message_here": "Type Your Message Here",
+    "cancel": "Cancel",
+    "send": "Send"
+  },
+  "CollapseButton": {
+    "collapse_and_expand_navbar": "Collapse And Expand Navbar"
+  },
+  "tab": "Tab",
+  "messages": "Messages",
+  "NotificationPopup": {
+    "no_new_messages": "No New Messages"
+  },
+  "RequestAppointmentForm": {
+    "whatsapp": "Whatsapp",
+    "sms": "Sms",
+    "email": "Email",
+    "enter_email": "Enter Email",
+    "subject": "Subject",
+    "body": "Body"
+  },
+  "addPaymentMethod": "Add Payment Method",
+  "ShopRegistration": {
+    "loading": "Loading",
+    "an_internal_error_occurred": "An Internal Error Occurred",
+    "shop_name": "Shop Name",
+    "shop_number": "Shop Number",
+    "address_line_1": "Address Line 1",
+    "address_line_2": "Address Line 2",
+    "zipcode": "Zipcode",
+    "city": "City",
+    "vat_number": "Vat Number",
+    "select_vat_rate": "Select Vat Rate",
+    "logo": "Logo",
+    "username": "Username",
+    "user_e_mail_address": "User E Mail Address",
+    "user_phone_number": "User Phone Number",
+    "promo_code": "Promo Code",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "TimeRangeForm": {
+    "can_be_modified_in_the_settings": "Can Be Modified In The Settings"
+  },
+  "Form": {
+    "break": "Break"
+  },
+  "CreateEstimateForm": {
+    "category": "Category"
+  },
+  "category": "Category",
+  "page": {
+    "km": "Km",
+    "vat": "Vat",
+    "no_work_history_available": "No Work History Available",
+    "no_estimates_history_available_create_one": "No Estimates History Available Create One",
+    "create_new_customer": "Create New Customer",
+    "a_z": "A Z",
+    "z_a": "Z A",
+    "shop": "Shop",
+    "loading": "Loading",
+    "user": "User",
+    "view_estimate": "View Estimate",
+    "create_estimate": "Create Estimate",
+    "create_new_estimate": "Create New Estimate",
+    "search_client": "Search Client",
+    "done": "Done",
+    "search_plate": "Search Plate",
+    "concept": "Concept",
+    "sent": "Sent",
+    "scheduled": "Scheduled",
+    "canceled": "Canceled",
+    "phone_number": "Phone Number",
+    "vat_rate": "Vat Rate",
+    "logo": "Logo",
+    "update": "Update",
+    "name": "Name",
+    "register_phone_number": "Register Phone Number",
+    "sync_template": "Sync Template",
+    "disconnect_whatsapp": "Disconnect Whatsapp",
+    "connect_your_whatsapp_business_account": "Connect Your Whatsapp Business Account",
+    "click_to_connect": "Click To Connect",
+    "whatsapp_requires_a_facebook_business_account": "Whatsapp Requires A Facebook Business Account",
+    "you_can_connect_an_existing_account_or_set_up_a_new_business_account": "You Can Connect An Existing Account Or Set Up A New Business Account",
+    "upload_customers": "Upload Customers",
+    "add_payment_method": "Add Payment Method",
+    "success": "Success",
+    "welcome_to_the_complete_software_solution_for_your_garage": "Welcome To The Complete Software Solution For Your Garage"
+  },
+  "AddVehicleModal": {
+    "add_vehicle": "Add Vehicle"
+  },
+  "EditVehicleForm": {
+    "select_option": "Select Option",
+    "generation": "Generation",
+    "select_generation": "Select Generation",
+    "type": "Type",
+    "select_type": "Select Type",
+    "wheel_options": "Wheel Options",
+    "select_wheel_option": "Select Wheel Option"
+  },
+  "EditVehicleModal": {
+    "vehicle": "Vehicle"
+  },
+  "Garage": {
+    "done": "Done"
+  },
+  "sort": "Sort",
+  "ReviewStep": {
+    "review_the_customer_details_for_accuracy": "Review The Customer Details For Accuracy",
+    "wheel_options": "Wheel Options"
+  },
+  "VehicleForm": {
+    "select_option": "Select Option",
+    "generation": "Generation",
+    "select_generation": "Select Generation",
+    "type": "Type",
+    "select_type": "Select Type",
+    "wheel_options": "Wheel Options",
+    "select_wheel_option": "Select Wheel Option"
+  },
+  "workCardId": "Work Card Id",
+  "SendEstimateDrawer": {
+    "whatsapp": "Whatsapp",
+    "sms": "Sms",
+    "email": "Email",
+    "subject": "Subject",
+    "body": "Body"
+  },
+  "CannedJobsModal": {
+    "search": "Search"
+  },
+  "CreateTicketForm": {
+    "service_title": "Service Title",
+    "kms": "Kms",
+    "customer_comments": "Customer Comments",
+    "service_group_description": "Service Group Description",
+    "service_group_description_placeholder": "Enter service group description",
+    "category": "Category",
+    "remove_group": "Remove Group",
+    "new_category": "New Category",
+    "new_group": "New Group",
+    "sub_total": "Sub Total",
+    "discount": "Discount",
+    "vat": "Vat",
+    "total": "Total",
+    "edit_total": "Edit Total",
+    "close": "Close",
+    "new_total": "New Total"
+  },
+  "duplicate": "Duplicate",
+  "ServicesForm": {
+    "btn": "Btn"
+  },
+  "preview": "Preview",
+  "communicationForm": {
+    "loading": "Loading"
+  },
+  "token": "Token",
+  "confirm": {
+    "confirm_all_schedule": "Confirm All Schedule",
+    "selected_schedule": "Selected Schedule",
+    "no_thank_you": "No Thank You"
+  },
+  "schedule": {
+    "schedule_you_appointment": "Schedule You Appointment",
+    "please_select_the_date_and_time": "Please Select The Date And Time",
+    "hours": "Hours",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "success": "Success",
+  "ReviewEstimate": {
+    "km": "Km",
+    "vat": "Vat"
+  },
+  "x-url": "X Url",
+  "not-found": {
+    "404_not_found": "404 Not Found"
+  },
+  "deliveriesCard": {
+    "deliveries": "Deliveries",
+    "expected_today": "Expected Today",
+    "late": "Late"
+  },
+  "monthlyVolumeCard": {
+    "monthly_volume": "Monthly Volume",
+    "comming_soon": "Comming Soon"
+  },
+  "searcCard": {
+    "error_loading_customers": "Error Loading Customers",
+    "clear": "Clear"
+  },
+  "RegistrationLayout": {
+    "welcome_to_carsu": "Welcome To Carsu"
+  },
+  "connectToFacebookModal": {
+    "whatsapp_usage_rules": "Whatsapp Usage Rules",
+    "the_first_1_000_messages_each_month_are_free_after_that_they_will_cost_0_13_per_message_paid_to_meta_the_owner_of_whatsapp_for_more_information_we_refer_to_the": "The First 1 000 Messages Each Month Are Free After That They Will Cost 0 13 Per Message Paid To Meta The Owner Of Whatsapp For More Information We Refer To The",
+    "whatsapp_business_pages": "Whatsapp Business Pages",
+    "in_order_to_enjoy_the_full_potential_of_carsu_customer_communications_we_highly_recommend_for_you_to_add_a_payment_method_when_requested_during_the_sign_up_process_this_enables_you_to_send_messages_directly_from_carsu_on_your_own_number": "In Order To Enjoy The Full Potential Of Carsu Customer Communications We Highly Recommend For You To Add A Payment Method When Requested During The Sign Up Process This Enables You To Send Messages Directly From Carsu On Your Own Number",
+    "connect_later": "Connect Later",
+    "connect_now": "Connect Now"
+  },
+  "code": "Code",
+  "state": "State",
+  "input": "Input",
+  "error": "Error",
+  "buttonLabel": "Button Label",
+  "pageTitle": "Page Title",
+  "addEmployeeHeading": "Add Employee Heading",
+  "columnTitle": {
+    "name": "Name",
+    "action": "Action"
+  },
+  "BellIndicator": {
+    "done": "Done",
+    "the_board_has_changed_since_you_loaded_the_page_click_here_to_refresh_the_page": "The Board Has Changed Since You Loaded The Page Click Here To Refresh The Page",
+    "your_board_is_up_to_date": "Your Board Is Up To Date"
+  },
+  "CardDrawer": {
+    "ticket_details": "Ticket Details",
+    "drop_off": "Drop Off",
+    "pick_up": "Pick Up",
+    "view_estimate": "View Estimate"
+  },
+  "CardLoading": {
+    "loading": "Loading"
+  },
+  "KanBAM": {
+    "an_error_occurred_loading_the_board": "An Error Occurred Loading The Board",
+    "try_to": "Try To",
+    "reload_the_page": "Reload The Page",
+    "or_contact_support": "Or Contact Support"
+  },
+  "SendCustomerModal": {
+    "send_whatsapp_to_customer_to_inform_the_car_can_be_picked_up": "Send Whatsapp To Customer To Inform The Car Can Be Picked Up",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "newUser": "New User",
+  "SelectCustomerVehicleModal": {
+    "select_a_customer": "Select A Customer",
+    "search": "Search",
+    "error_loading_customers": "Error Loading Customers",
+    "start_estimate": "Start Estimate"
+  },
+  "svix-id": "Svix Id",
+  "svix-timestamp": "Svix Timestamp",
+  "svix-signature": "Svix Signature",
+  "stripe-signature": "Stripe Signature",
+  "Authorization": "Authorization",
+  "hub": {
+    "mode": "Mode",
+    "verify_token": "Verify Token",
+    "challenge": "Challenge"
+  },
+  "de-DE": "De DE",
+  "components": {
+    "button": {
+      "subscribe": "Subscribe",
+      "add_payment_method": "Add Payment Method",
+      "let_s_go": "Let's Go",
+      "use_promocode": "Use Promocode",
+      "resume_subscription": "Resume Subscription",
+      "cancel_subscription": "Cancel Subscription",
+      "start_free_trial": "Start Free Trial",
+      "apply": "Apply"
+    },
+    "heading": {
+      "thank_you": "Thank you,",
+      "appointment_confirmed": "Appointment Confirmed"
+    },
+    "p": {
+      "dear_customer": "Dear Customer,",
+      "we_re_excited_to_assist_you_with_your_car_needs_to": "We're excited to assist you with your car needs! To book your\n                appointment, simply click on the link below. We look forward to\n                seeing you soon.",
+      "kind_regards": "Kind regards,",
+      "hello": "Hello",
+      "your_free_trial_will_end_in": "Your free trial will end in",
+      "on": "(on",
+      "to_continue_using_our_services_without_interruptio": "To continue using our services without interruption, please add your\n          payment method.",
+      "if_you_don_t_add_a_payment_method_your_subscriptio": "If you don't add a payment method, your subscription will be\n          canceled when the trial ends."
+    },
+    "a": {
+      "click_here": "Click here",
+      "update_payment_method": "Update Payment Method"
+    },
+    "text": {
+      "conversations_can_only_be_initiated_by_your_custom": "Conversations Can Only Be Initiated By Your Customers You Won't\n            Be Able To Initiate New Message With Customers Until You've\n            Added A Payment Method Or Updated Your Existing Payment Method",
+      "or": "or"
+    },
+    "h1": {
+      "your_free_trial_is_ending_soon": "Your Free Trial is Ending Soon"
+    },
+    "div": {
+      "carsu_all_rights_reserved": "Carsu. All rights reserved."
+    }
+  },
+  "dynamic": {
+    "finish_registration_for": "Finish registration for {email}"
+  },
+  "CreateCustomer": {
+    "title": "Create Customer",
+    "steps": {
+      "contactinfo": "Contact Info",
+      "vehicleinfo": "Vehicle Info"
+    },
+    "personalInfo": "Personal Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "contactInfo": "Contact Information",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "addressInfo": "Address Information",
+    "addressLine1": "Address Line 1",
+    "addressLine1Placeholder": "Street address",
+    "addressLine2": "Address Line 2 (Optional)",
+    "addressLine2Placeholder": "Apartment, suite, etc. (optional)",
+    "city": "City",
+    "zipcode": "Zip Code",
+    "country": "Country",
+    "licenseInfo": "License Information",
+    "licenseCountry": "License Plate Country",
+    "licensePlate": "License Plate Number",
+    "licensePlatePlaceholder": "Enter license plate",
+    "vehicleSpecs": "Vehicle Specifications",
+    "make": "Make",
+    "selectMake": "Select Make",
+    "model": "Model",
+    "selectModel": "Select Model",
+    "generation": "Generation",
+    "selectGeneration": "Select Generation",
+    "type": "Type",
+    "selectType": "Select Type",
+    "additionalVehicleInfo": "Additional Vehicle Information",
+    "vin": "VIN",
+    "kba": "KBA Number",
+    "wheelOptions": "Wheel Options",
+    "addVehicle": "Add Vehicle"
+  }
+}

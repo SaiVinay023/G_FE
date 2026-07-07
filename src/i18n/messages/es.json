@@ -1,0 +1,766 @@
+{
+  "common": {
+    "saveChanges": "Guardar cambios",
+    "saving": "Guardando...",
+    "creating": "Creando...",
+    "next": "Siguiente",
+    "skip": "Omitir",
+    "error": "Error"
+  },
+  "Today": {
+    "title": "Hoy",
+    "expected": "Esperado",
+    "inHouse": "Interno",
+    "inProgress": "En curso",
+    "ready": "Listo",
+    "pickedUp": "Recogido",
+    "onHold": "En espera",
+    "unassigned": "No asignado"
+  },
+  "QuickShareModal": {
+  "title": "Enviar confirmación de cita",
+  "description": "Seleccione un canal para enviar la confirmación de la cita",
+  "tabs": {
+    "whatsapp": "WhatsApp",
+    "sms": "SMS",
+    "email": "Correo electrónico"
+  },
+  "fields": {
+    "phone": "Número de teléfono",
+    "email": "Correo electrónico",
+    "subject": "Asunto",
+    "body": "Mensaje",
+    "subjectDefault": "Cita para servicio",
+    "bodyDefault": "Estimado cliente,\n\n¡Estamos encantados de ayudarle con las necesidades de su automóvil! Para reservar su cita simultáneamente en la lista a continuación."
+  },
+  "buttons": {
+    "cancel": "Cancelar",
+    "send": "Enviar",
+    "sending": "Enviando..."
+  }
+},
+  "LocaleSwitcher": {
+    "language": "Idioma"
+  },
+  "Calendar": {
+    "todayBtnTitle": "hoy",
+    "dayGridMonth": "mes",
+    "timeGridWeek": "semana",
+    "timeGridDay": "dia",
+    "quickShareBtn": "Compartir Rápidamente"
+  },
+  "selectChannel": "Por favor seleccione el(los) canal(es) para enviar la confirmación de la cita",
+  "sendAppointmentConfirmation": "Enviar confirmación de cita al cliente",
+  "Appointment": {
+    "error": "Este enlace ya no es válido. Por favor, contáctenos al",
+    "body": {
+      "title": "Estimado/a",
+      "body": "Gracias por reservar un servicio con nosotros.",
+      "contact": "Saludos cordiales"
+    },
+    "form": {
+      "fieldName": {
+        "label": "Su nombre",
+        "placeholder": "Su nombre",
+        "errorMessageBlank": "El campo es obligatorio"
+      },
+      "fieldEmail": {
+        "label": "Su correo electrónico",
+        "placeholder": "Su correo electrónico",
+        "errorMessageBlank": "El correo electrónico no puede estar en blanco",
+        "errorMessageInvalid": "Correo electrónico inválido"
+      },
+      "fieldMobile": {
+        "label": "Su teléfono móvil",
+        "placeholder": "Su teléfono móvil"
+      },
+      "fieldComment": {
+        "label": "Comentarios",
+        "placeholder": "Comentarios: Por favor, agregue información sobre el servicio solicitado"
+      }
+    },
+    "calendarForm": {
+      "title": "Programa tu cita",
+      "datePicker": {
+        "title": "Por favor selecciona la fecha",
+        "errorMessageBlank": "La fecha es obligatoria"
+      },
+      "timePicker": {
+        "title": "Por favor selecciona una fecha del calendario",
+        "errorMessageBlank": "La hora es obligatoria"
+      },
+      "buttonConfirm": "Confirmar",
+      "buttonCancel": "Cancelar"
+    }
+  },
+  "shopFormTimeRange": {
+    "openingTimeLabel": "Hora de apertura",
+    "closingTimeLabel": "Hora de cierre",
+    "selectOpeningTime": "Seleccionar hora de apertura",
+    "selectClosingTime": "Seleccionar hora de cierre",
+    "timeValidationError": "La hora de cierre debe ser después de la hora de apertura",
+    "requiredField": "Este campo es obligatorio"
+  },
+  "shopFormTimeRangeModal": {
+    "buttonTitle": "Actualizar horarios de trabajo",
+    "cancelButtonTitle": "Cancelar",
+    "saveButtonTitle": "Guardar",
+    "modalTitle": "Actualizar rango de tiempo",
+    "addBreak": "Agregar descanso",
+    "removeBreak": "Eliminar descanso",
+    "breakStartErrorMessage": "Se requieren tanto el inicio como el final del descanso.",
+    "breakEndErrorMessage": "La hora de finalización del descanso debe ser posterior a la hora de inicio",
+    "startTimeRequiredErrorMessage": "La hora de inicio es obligatoria",
+    "endTimeRequiredErrorMessage": "La hora de finalización es obligatoria",
+    "breakStartRequiredErrorMessage": "El inicio del descanso es obligatorio",
+    "breakEndRequiredErrorMessage": "El final del descanso es obligatorio",
+    "startPlaceholder": "Hora de inicio",
+    "endPlaceholder": "Hora de finalización"
+  },
+  "EmployeeCreateForm": {
+    "clerkErrors": {
+      "form_password_pwned": "La contraseña se encontró en una base de datos en línea. Elija una contraseña diferente.",
+      "form_identifier_exists": "El correo electrónico o el número de teléfono ya están en uso",
+      "unknown": "Se produjo un error desconocido al intentar crear el usuario."
+    },
+    "nameLabel": "Nombre",
+    "emailLabel": "Correo electrónico",
+    "phoneLabel": "Teléfono",
+    "passwordLabel": "Contraseña",
+    "passwordRepeatLabel": "Repita la contraseña",
+    "submitButton": "Crear",
+    "validation": {
+      "emailAlreadyExists": "Ya existe un usuario con este correo electrónico",
+      "emailInvalid": "Correo electrónico no válido.",
+      "phoneRequired": "Se requiere número de teléfono",
+      "phoneAlreadyExists": "Ya existe un usuario con este número.",
+      "phoneInvalid": "El número de teléfono no es válido",
+      "required": "esto es requerido",
+      "nameTooShort": "La longitud mínima del nombre debe ser 4",
+      "passwordTooShort": "La contraseña no es lo suficientemente larga",
+      "passwordsDontMatch": "La contraseña no coincide"
+    }
+  },
+  "SocialButton": {
+    "gdprRequired": "Para continuar acepta los Términos y Condiciones y Política de Privacidad"
+  },
+  "DeleteEmployeeButton": {
+    "buttonLabel": "Borrar",
+    "error": "Algo salió mal al eliminar al empleado",
+    "success": "Eliminó exitosamente al empleado"
+  },
+  "ShopUsersPage": {
+    "pageTitle": "Empleados",
+    "addEmployeeHeading": "Agregar empleado",
+    "columnTitle": {
+      "name": "Nombre",
+      "action": "Acción"
+    }
+  },
+  "Scheduling": {
+    "title": "Programación",
+    "general": "General",
+    "unassigned": "No asignado",
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo"
+  },
+  "Estimates": {
+    "title": "Estimaciones",
+    "allestimates": "Todas las estimaciones",
+    "estimateDetails": "Detalles de la estimación",
+    "date": "Fecha",
+    "topic": "Tema",
+    "client": "Cliente",
+    "plate": "Lámina",
+    "amount": "Cantidad",
+    "allStatuses": "Todos los estados",
+    "status": "Estado",
+    "pending": "Pendiente",
+    "approved": "Aprobado",
+    "declined": "Rechazado",
+    "newEstimate": "Nueva estimación"
+  },
+  "Canned": {
+    "title": "Enlatado",
+    "pageTitle": "Trabajos enlatados",
+    "all": "Todo",
+    "createNewCannedJob": "Crear nuevo trabajo enlatado",
+    "favorites": "Favoritos",
+    "dontHave": "Aún no tienes trabajos predefinidos",
+    "inspections": "Inspecciones",
+    "oilService": "Servicio de aceite",
+    "upsellServices": "Servicios de ventas adicionales",
+    "Mounting": "Montaje",
+    "SeasonalChange": "Cambio estacional",
+    "Services": "Servicios",
+    "Assembly": "Asamblea"
+  },
+  "createCanned": {
+    "title": "Enlatado",
+    "pageTitle": "Trabajos enlatados",
+    "newGroup": "Nueva categoría",
+    "createJob": "Crear trabajo",
+    "createCannedJob": "Crear trabajo enlatado",
+    "serviceGroupDescription": "Descripción del Servicio y/o Trabajo",
+    "serviceDescription": "Descripción del servicio",
+    "service": "Servicio",
+    "part": "Parte",
+    "cost": "Costo",
+    "hours": "Horas",
+    "QTY": "CANTIDAD",
+    "total": "Total",
+    "price": "Precio",
+    "partDescription": "Descripción de pieza/servicio"
+  },
+  "customers": {
+    "title": "Clientes",
+    "allCustomers": "Todos los clientes",
+    "name": "Nombre",
+    "phone": "Teléfono",
+    "licensePlate": "Matrícula",
+    "sort": "Clasificar",
+    "customerDetails": "Detalles del cliente",
+    "overview": "Descripción general",
+    "workHistory": "Historia laboral",
+    "messages": "Mensajes",
+    "templates": "Plantillas",
+    "communications": "Comunicaciones",
+    "garage": "Cochera",
+    "noVehicles": "No se encontraron vehículos.",
+    "customerUpdated": "Cliente actualizado",
+    "loading": "Cargando…",
+    "failedToLoad": "No se pudo cargar el cliente",
+    "notFound": "Cliente no encontrado"
+  },
+  "CreateCustomer": {
+    "title": "Crear Cliente",
+    "steps": {
+      "contactinfo": "Información de contacto",
+      "vehicleinfo": "Información del vehículo"
+    },
+    "personalInfo": "Información personal",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "contactInfo": "Información de contacto",
+    "email": "Dirección de correo electrónico",
+    "phone": "Número de teléfono",
+    "addressInfo": "Información de dirección",
+    "addressLine1": "Línea de dirección 1",
+    "addressLine1Placeholder": "Calle y número",
+    "addressLine2": "Línea de dirección 2 (Opcional)",
+    "addressLine2Placeholder": "Apartamento, piso, etc. (opcional)",
+    "city": "Ciudad",
+    "zipcode": "Código postal",
+    "country": "País",
+    "licenseInfo": "Información de la matrícula",
+    "licenseCountry": "País de la matrícula",
+    "licensePlate": "Número de matrícula",
+    "licensePlatePlaceholder": "Introduzca la matrícula",
+    "vehicleSpecs": "Especificaciones del vehículo",
+    "make": "Marca",
+    "selectMake": "Seleccionar marca",
+    "model": "Modelo",
+    "selectModel": "Seleccionar modelo",
+    "generation": "Generación",
+    "selectGeneration": "Seleccionar generación",
+    "type": "Tipo",
+    "selectType": "Seleccionar tipo",
+    "additionalVehicleInfo": "Información adicional del vehículo",
+    "vin": "VIN",
+    "kba": "Número KBA",
+    "wheelOptions": "Opciones de ruedas",
+    "addVehicle": "Agregar vehículo"
+  },
+  "Settings": {
+    "title": "Configuración de la tienda",
+    "shopName": "Nombre de la tienda",
+    "shopEmail": "Correo electrónico de la tienda",
+    "shopPhone": "Número de teléfono de la tienda",
+    "settings": "Ajustes",
+    "zipCode": "Código postal",
+    "country": "País",
+    "address": "DIRECCIÓN",
+    "city": "Ciudad",
+    "uploadLogo": "Subir Logo",
+    "changeLogo": "Cambiar Logo",
+    "noLogo": "No hay logo cargado"
+  },
+  "Users": {
+    "title": "Usuarios",
+    "employees": "Empleados",
+    "addEmploee": "Agregar empleado",
+    "password": "Contraseña",
+    "repeatPassword": "Repita la contraseña",
+    "create": "Crear",
+    "action": "Acción"
+  },
+  "Single": {
+    "search": "Buscar",
+    "createCustomer": "Crear cliente",
+    "createEstimate": "Crear presupuesto",
+    "customers": "Clientes",
+    "products": "Productos",
+    "newVehicle": "Vehículo nuevo",
+    "newCustomer": "Nuevo cliente",
+    "empty": "Vacío",
+    "clear": "Claro",
+    "edit": "Editar",
+    "delete": "Borrar",
+    "copy": "Copiar",
+    "serviceTitle": "Título del servicio",
+    "customerComments": "Comentarios de clientes",
+    "subTotal": "Subtotal",
+    "discount": "Descuento",
+    "editTotal": "Editar total",
+    "discard": "Desechar",
+    "save": "Ahorrar",
+    "newTotal": "Nuevo total",
+    "details": "Detalles",
+    "collapse": "Colapsar"
+  },
+  "Sidebar": {
+    "today": "Hoy",
+    "scheduling": "Programación",
+    "estimates": "Estimaciones",
+    "canned": "Enlatado",
+    "customers": "Clientes",
+    "settings": "Ajustes",
+    "users": "Usuarios",
+    "chat": "Chat",
+    "collapse": "Colapsar",
+    "calendar": "Calendario"
+  },
+  "Added": {
+    "unknownError": "¡Ocurrió un error desconocido!",
+    "shopUpdated": "Tienda actualizada",
+    "Loading": "Cargando",
+    "internalError": "Ocurrió un error interno",
+    "vatRate": "tipo de IVA",
+    "logo": "Logo",
+    "welcomeCarsu": "Bienvenido a carsu",
+    "signoutToComplete": "Debes cerrar sesión para completar el registro.",
+    "signoutFirst": "¡Cierra sesión primero!",
+    "signOut": "desconectar",
+    "googleSignUp": "Regístrate usando Google",
+    "microsoftSignUp": "Regístrate usando Microsoft",
+    "consentCarsu": "Usted acepta el carsu",
+    "termsCondition": "Términos y condiciones",
+    "privacyPolicy": "política de privacidad",
+    "processingData": "y el procesamiento de datos de acuerdo con el RGPD",
+    "letsGo": "Vamos",
+    "logoError": "Error al cargar el logotipo",
+    "wrongLogo": "Algo salió mal al subir tu logo. Una vez registrado puedes subir un logo desde tu perfil",
+    "vatNumber": "Número de IVA",
+    "vatRateSelect": "Seleccione el tipo de IVA",
+    "addressLine1": "Dirección Línea 1",
+    "addressLine2": "Línea de dirección 2",
+    "fileTooLarge": "¡El tamaño del archivo es demasiado grande! 1mb máximo",
+    "fileNotSupported": "El tipo de archivo no es compatible. ¡Solo imágenes!",
+    "finish": "Finalizar",
+    "errorLoading": "Error al cargar productos",
+    "monthlyVolume": "Volumen Mensual",
+    "comingSoon": "Muy pronto",
+    "deliveries": "Entregas",
+    "expectedToday": "Esperado hoy",
+    "late": "Tarde",
+    "searchClient": "Cliente de búsqueda",
+    "viewEstimate": "Ver estimación",
+    "send": "Enviar",
+    "schedule": "Cronograma",
+    "duplicate": "Duplicado",
+    "archive": "Archivo",
+    "removeGroup": "Quitar grupo",
+    "editVehicle": "Editar vehículo",
+    "cancel": "Cancelar",
+    "approve": "Aprobar",
+    "undoAction": "¿Está seguro? No puedes deshacer esta acción después.",
+    "errorLoadingCustomers": "Error al cargar clientes",
+    "editCanned": "EDITAR TRABAJO ENLATADO",
+    "updateJob": "Actualizar trabajo",
+    "submit": "Entregar",
+    "createdOn": "Creado el",
+    "addVehicle": "Agregar vehículo",
+    "requiredInformation": "Ingrese la información requerida para crear un cliente",
+    "previous": "Anterior",
+    "next": "Próximo",
+    "emailBlank": "El correo electrónico no puede estar en blanco",
+    "licensePlateCountry": "País de la matrícula",
+    "selectMake": "Seleccione Hacer",
+    "selectModel": "Seleccionar modelo",
+    "model": "Modelo",
+    "garage": "Cochera",
+    "reviewDetails": "Revise los detalles del cliente para verificar su precisión.",
+    "make": "Hacer",
+    "scheduleEstimate": "Programar estimación para",
+    "dropOff": "Dejar",
+    "pickUp": "Levantar",
+    "previewEstimate": "Vista previa de estimación",
+    "serviceWork": "Descripción del Servicio y/o Trabajo",
+    "removeCategory": "Eliminar categoría",
+    "addCategory": "Agregar categoría",
+    "createnewCategory": "Crear nueva categoría",
+    "errorLoadingCategories": "Error al cargar categorías",
+    "others": "Otros",
+    "contactInfo": "Información de contacto",
+    "vehicleInfo": "Información del vehículo",
+    "requiredInfoCustomer": "Ingrese la información requerida para crear un cliente",
+    "addService": "Agregar servicio",
+    "close": "Cerca",
+    "vehicle": "Vehículo",
+    "vehicles": "Vehículos",
+    "review": "Revisar",
+    "deleting": "Eliminando..."
+  },
+  "assignee": "Cesionario",
+  "customer": "Cliente",
+  "resize": "Cambiar tamaño",
+  "CarCard": {
+    "done": "Hecho"
+  },
+  "shopId": "Identificación de la tienda",
+  "ConfirmationError": {
+    "nbsp": "Nbsp"
+  },
+  "ConfirmedAppointment": {
+    "nbsp": "Nbsp",
+    "thank_you": "Gracias",
+    "appointment_confirmed": "Cita confirmada"
+  },
+  "template": {
+    "dear": "Estimado/a",
+    "please_find_our_estimates_below_for": "Encuentre nuestras estimaciones a continuación para",
+    "for_your": "Para tu",
+    "with_license_plate": "Con matrícula",
+    "kind_regards": "Atentamente",
+    "click_here_to_view_estimate": "Haga clic aquí para ver el presupuesto"
+  },
+  "FancyNav": {
+    "search": "Buscar",
+    "done": "Hecho"
+  },
+  "AssignSelect": {
+    "unassigned": "No asignado"
+  },
+  "LicensePlate": {
+    "xx": "Xxx"
+  },
+  "language": "Idioma",
+  "Messages": {
+    "no_messages_found": "No se encontraron mensajes",
+    "tabs": "Cortina a la italiana"
+  },
+  "MessagesForm": {
+    "uploading": "Subiendo",
+    "uploaded": "subido",
+    "try_again": "Intentar otra vez",
+    "upload_image": "Subir imagen",
+    "reset": "Reiniciar",
+    "send_message": "Enviar mensaje"
+  },
+  "SendMessageModal": {
+    "send_new_message": "Enviar nuevo mensaje",
+    "type_your_message_here": "Escriba su mensaje aquí",
+    "cancel": "Cancelar",
+    "send": "Enviar"
+  },
+  "CollapseButton": {
+    "collapse_and_expand_navbar": "Contraer y expandir la barra de navegación"
+  },
+  "tab": "Pestaña",
+  "messages": "Mensajes",
+  "NotificationPopup": {
+    "no_new_messages": "No hay mensajes nuevos"
+  },
+  "RequestAppointmentForm": {
+    "whatsapp": "Whatsapp",
+    "sms": "mensajes de texto",
+    "email": "Correo electrónico",
+    "enter_email": "Ingrese el correo electrónico",
+    "subject": "Sujeto",
+    "body": "Cuerpo"
+  },
+  "addPaymentMethod": "Agregar método de pago",
+  "ShopRegistration": {
+    "loading": "Cargando",
+    "an_internal_error_occurred": "Se produjo un error interno",
+    "shop_name": "Nombre de la tienda",
+    "shop_number": "Número de tienda",
+    "address_line_1": "Dirección Línea 1",
+    "address_line_2": "Línea de dirección 2",
+    "zipcode": "Código postal",
+    "city": "Ciudad",
+    "vat_number": "Número de IVA",
+    "select_vat_rate": "Seleccionar tasa de IVA",
+    "logo": "Logo",
+    "username": "Nombre de usuario",
+    "user_e_mail_address": "Dirección de correo electrónico del usuario",
+    "user_phone_number": "Número de teléfono del usuario",
+    "promo_code": "Código promocional",
+    "previous": "Anterior",
+    "next": "Próximo"
+  },
+  "TimeRangeForm": {
+    "can_be_modified_in_the_settings": "Se puede modificar en la configuración"
+  },
+  "Form": {
+    "break": "Romper"
+  },
+  "CreateEstimateForm": {
+    "category": "Categoría"
+  },
+  "category": "Categoría",
+  "page": {
+    "km": "kilómetros",
+    "vat": "Tina",
+    "no_work_history_available": "No hay historial laboral disponible",
+    "no_estimates_history_available_create_one": "No hay historial de estimaciones disponible Crear uno",
+    "create_new_customer": "Crear nuevo cliente",
+    "a_z": "A Z",
+    "z_a": "De A",
+    "shop": "Comercio",
+    "loading": "Cargando",
+    "user": "Usuario",
+    "view_estimate": "Ver estimación",
+    "create_estimate": "Crear presupuesto",
+    "create_new_estimate": "Crear nueva estimación",
+    "search_client": "Cliente de búsqueda",
+    "done": "Hecho",
+    "search_plate": "Placa de búsqueda",
+    "concept": "Concepto",
+    "sent": "Enviado",
+    "scheduled": "Programado",
+    "canceled": "Cancelado",
+    "phone_number": "Número de teléfono",
+    "vat_rate": "Tasa de IVA",
+    "logo": "Logo",
+    "update": "Actualizar",
+    "name": "Nombre",
+    "register_phone_number": "Registrar número de teléfono",
+    "sync_template": "Plantilla de sincronización",
+    "disconnect_whatsapp": "Desconectar Whatsapp",
+    "connect_your_whatsapp_business_account": "Conecte su cuenta empresarial de Whatsapp",
+    "click_to_connect": "Haga clic para conectarse",
+    "whatsapp_requires_a_facebook_business_account": "Whatsapp requiere una cuenta comercial de Facebook",
+    "you_can_connect_an_existing_account_or_set_up_a_new_business_account": "Puede conectar una cuenta existente o configurar una nueva cuenta comercial",
+    "upload_customers": "Subir Clientes",
+    "add_payment_method": "Agregar método de pago",
+    "success": "Éxito",
+    "welcome_to_the_complete_software_solution_for_your_garage": "Bienvenido a la solución de software completa para su garaje"
+  },
+  "AddVehicleModal": {
+    "add_vehicle": "Agregar vehículo"
+  },
+  "EditVehicleForm": {
+    "select_option": "Seleccionar opción",
+    "generation": "Generación",
+    "select_generation": "Seleccionar Generación",
+    "type": "Tipo",
+    "select_type": "Seleccionar tipo",
+    "wheel_options": "Opciones de rueda",
+    "select_wheel_option": "Seleccione la opción de rueda"
+  },
+  "EditVehicleModal": {
+    "vehicle": "Vehículo"
+  },
+  "Garage": {
+    "done": "Hecho"
+  },
+  "sort": "Clasificar",
+  "ReviewStep": {
+    "review_the_customer_details_for_accuracy": "Revise los detalles del cliente para mayor precisión",
+    "wheel_options": "Opciones de rueda"
+  },
+  "VehicleForm": {
+    "select_option": "Seleccionar opción",
+    "generation": "Generación",
+    "select_generation": "Seleccionar Generación",
+    "type": "Tipo",
+    "select_type": "Seleccionar tipo",
+    "wheel_options": "Opciones de rueda",
+    "select_wheel_option": "Seleccione la opción de rueda"
+  },
+  "workCardId": "Identificación de tarjeta de trabajo",
+  "SendEstimateDrawer": {
+    "whatsapp": "Whatsapp",
+    "sms": "mensajes de texto",
+    "email": "Correo electrónico",
+    "subject": "Sujeto",
+    "body": "Cuerpo"
+  },
+  "CannedJobsModal": {
+    "search": "Buscar"
+  },
+  "CreateTicketForm": {
+    "service_title": "Título del servicio",
+    "kms": "Km",
+    "customer_comments": "Comentarios de clientes",
+    "service_group_description": "Descripción del grupo de servicios",
+    "category": "Categoría",
+    "remove_group": "Quitar grupo",
+    "new_category": "Nueva categoría",
+    "new_group": "Nuevo grupo",
+    "sub_total": "Subtotal",
+    "discount": "Descuento",
+    "vat": "Tina",
+    "total": "Total",
+    "edit_total": "Editar total",
+    "close": "Cerca",
+    "new_total": "Nuevo total"
+  },
+  "duplicate": "Duplicado",
+  "ServicesForm": {
+    "btn": "por favor"
+  },
+  "preview": "Avance",
+  "communicationForm": {
+    "loading": "Cargando"
+  },
+  "token": "Simbólico",
+  "confirm": {
+    "confirm_all_schedule": "Confirmar todo el horario",
+    "selected_schedule": "Horario seleccionado",
+    "no_thank_you": "No, gracias"
+  },
+  "schedule": {
+    "schedule_you_appointment": "Programe su cita",
+    "please_select_the_date_and_time": "Seleccione la fecha y la hora",
+    "hours": "Horas",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar"
+  },
+  "success": "Éxito",
+  "ReviewEstimate": {
+    "km": "kilómetros",
+    "vat": "Tina"
+  },
+  "x-url": "X URL",
+  "not-found": {
+    "404_not_found": "404 no encontrado"
+  },
+  "deliveriesCard": {
+    "deliveries": "Entregas",
+    "expected_today": "Esperado hoy",
+    "late": "Tarde"
+  },
+  "monthlyVolumeCard": {
+    "monthly_volume": "Volumen Mensual",
+    "comming_soon": "Próximamente"
+  },
+  "searcCard": {
+    "error_loading_customers": "Error al cargar clientes",
+    "clear": "Claro"
+  },
+  "RegistrationLayout": {
+    "welcome_to_carsu": "Bienvenido a Carsu"
+  },
+  "connectToFacebookModal": {
+    "whatsapp_usage_rules": "Reglas de uso de Whatsapp",
+    "the_first_1_000_messages_each_month_are_free_after_that_they_will_cost_0_13_per_message_paid_to_meta_the_owner_of_whatsapp_for_more_information_we_refer_to_the": "Los primeros 1.000 mensajes cada mes son gratuitos, después costarán 0,13 por mensaje y se pagarán a Meta, el propietario de Whatsapp. Para obtener más información, consulte el",
+    "whatsapp_business_pages": "Páginas comerciales de Whatsapp",
+    "in_order_to_enjoy_the_full_potential_of_carsu_customer_communications_we_highly_recommend_for_you_to_add_a_payment_method_when_requested_during_the_sign_up_process_this_enables_you_to_send_messages_directly_from_carsu_on_your_own_number": "Para disfrutar de todo el potencial de las comunicaciones con los clientes de Carsu, le recomendamos encarecidamente que agregue un método de pago cuando lo solicite durante el proceso de registro. Esto le permitirá enviar mensajes directamente desde Carsu a su propio número.",
+    "connect_later": "Conéctate más tarde",
+    "connect_now": "Conéctate ahora"
+  },
+  "code": "Código",
+  "state": "Estado",
+  "input": "Aporte",
+  "error": "Error",
+  "buttonLabel": "Etiqueta del botón",
+  "pageTitle": "Título de la página",
+  "addEmployeeHeading": "Agregar encabezado de empleado",
+  "columnTitle": {
+    "name": "Nombre",
+    "action": "Acción"
+  },
+  "BellIndicator": {
+    "done": "Hecho",
+    "the_board_has_changed_since_you_loaded_the_page_click_here_to_refresh_the_page": "El tablero ha cambiado desde que cargó la página. Haga clic aquí para actualizar la página.",
+    "your_board_is_up_to_date": "Tu tablero está actualizado"
+  },
+  "CardDrawer": {
+    "ticket_details": "Detalles del billete",
+    "drop_off": "Dejar",
+    "pick_up": "Levantar",
+    "view_estimate": "Ver estimación"
+  },
+  "CardLoading": {
+    "loading": "Cargando"
+  },
+  "KanBAM": {
+    "an_error_occurred_loading_the_board": "Se produjo un error al cargar el tablero",
+    "try_to": "intentarlo",
+    "reload_the_page": "Recargar la página",
+    "or_contact_support": "O póngase en contacto con el soporte"
+  },
+  "SendCustomerModal": {
+    "send_whatsapp_to_customer_to_inform_the_car_can_be_picked_up": "Envíe Whatsapp al cliente para informarle que se puede recoger el coche.",
+    "yes": "Sí",
+    "no": "No"
+  },
+  "newUser": "Nuevo usuario",
+  "SelectCustomerVehicleModal": {
+    "select_a_customer": "Seleccione un cliente",
+    "search": "Buscar",
+    "error_loading_customers": "Error al cargar clientes",
+    "start_estimate": "Iniciar estimación"
+  },
+  "svix-id": "Identificación de Svix",
+  "svix-timestamp": "Marca de tiempo Svix",
+  "svix-signature": "Firma Svix",
+  "stripe-signature": "Firma de rayas",
+  "Authorization": "Autorización",
+  "hub": {
+    "mode": "Modo",
+    "verify_token": "Verificar token",
+    "challenge": "Desafío"
+  },
+  "de-DE": "Por DE",
+  "components": {
+    "button": {
+      "subscribe": "Suscribir",
+      "add_payment_method": "Agregar método de pago",
+      "let_s_go": "Vamos",
+      "use_promocode": "Usar código promocional",
+      "resume_subscription": "Reanudar suscripción",
+      "cancel_subscription": "Cancelar suscripción",
+      "start_free_trial": "Iniciar prueba gratuita",
+      "apply": "Aplicar"
+    },
+    "heading": {
+      "thank_you": "Gracias,",
+      "appointment_confirmed": "Cita confirmada"
+    },
+    "p": {
+      "dear_customer": "Estimado cliente,",
+      "we_re_excited_to_assist_you_with_your_car_needs_to": "¡Estamos encantados de ayudarle con las necesidades de su automóvil! Para reservar tu\n                cita, simplemente haga clic en el enlace a continuación. Esperamos con ansias\n                Nos vemos pronto.",
+      "kind_regards": "Atentamente,",
+      "hello": "Hola",
+      "your_free_trial_will_end_in": "Su prueba gratuita finalizará en",
+      "on": "(en",
+      "to_continue_using_our_services_without_interruptio": "Para continuar utilizando nuestros servicios sin interrupción, agregue su\n          método de pago.",
+      "if_you_don_t_add_a_payment_method_your_subscriptio": "Si no agrega un método de pago, su suscripción será\n          cancelado cuando termine el juicio."
+    },
+    "a": {
+      "click_here": "haga clic aquí",
+      "update_payment_method": "Actualizar método de pago"
+    },
+    "text": {
+      "conversations_can_only_be_initiated_by_your_custom": "Las conversaciones solo pueden ser iniciadas por sus clientes, usted no lo hará\n            Ser capaz de iniciar nuevos mensajes con los clientes hasta que haya\n            Agregó un método de pago o actualizó su método de pago existente",
+      "or": "o"
+    },
+    "h1": {
+      "your_free_trial_is_ending_soon": "Su prueba gratuita finalizará pronto"
+    },
+    "div": {
+      "carsu_all_rights_reserved": "Carsu. Reservados todos los derechos."
+    }
+  },
+  "dynamic": {
+    "finish_registration_for": "Finalizar el registro de {email}"
+  }
+}
