@@ -111,7 +111,7 @@ const Calendar: FC<CalendarComponentProps> = ({
 
   const eventClassNames = useMemo(
     () => (eventInfo: any) => {
-      const classes = ['carsu-fullcalendar'];
+      const classes = ['project-fullcalendar'];
       if (eventInfo.event.extendedProps.break) {
         classes.push('event-break');
       }

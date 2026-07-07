@@ -342,13 +342,13 @@
     "internalError": "Es ist ein interner Fehler aufgetreten",
     "vatRate": "Mehrwertsteuersatz",
     "logo": "Logo",
-    "welcomeCarsu": "Willkommen bei carsu",
+    "welcomeThe Project": "Willkommen bei project",
     "signoutToComplete": "Um die Registrierung abzuschließen, müssen Sie sich abmelden",
     "signoutFirst": "Melden Sie sich zuerst ab!",
     "signOut": "Abmelden",
     "googleSignUp": "Melden Sie sich mit Google an",
     "microsoftSignUp": "Melden Sie sich über Microsoft an",
-    "consentCarsu": "Sie stimmen dem Carsu zu",
+    "consentThe Project": "Sie stimmen dem The Project zu",
     "termsCondition": "Geschäftsbedingungen",
     "privacyPolicy": "Datenschutzrichtlinie",
     "processingData": "und die Datenverarbeitung im Einklang mit der DSGVO",
@@ -656,13 +656,13 @@
     "clear": "Klar"
   },
   "RegistrationLayout": {
-    "welcome_to_carsu": "Willkommen bei Carsu"
+    "welcome_to_project": "Willkommen bei The Project"
   },
   "connectToFacebookModal": {
     "whatsapp_usage_rules": "WhatsApp-Nutzungsregeln",
     "the_first_1_000_messages_each_month_are_free_after_that_they_will_cost_0_13_per_message_paid_to_meta_the_owner_of_whatsapp_for_more_information_we_refer_to_the": "Die ersten 1.000 Nachrichten pro Monat sind kostenlos, danach kosten sie 0,13 pro Nachricht, die an den Meta-Besitzer von WhatsApp gezahlt werden. Weitere Informationen finden Sie unter",
     "whatsapp_business_pages": "WhatsApp-Geschäftsseiten",
-    "in_order_to_enjoy_the_full_potential_of_carsu_customer_communications_we_highly_recommend_for_you_to_add_a_payment_method_when_requested_during_the_sign_up_process_this_enables_you_to_send_messages_directly_from_carsu_on_your_own_number": "Um das volle Potenzial der Carsu-Kundenkommunikation auszuschöpfen, empfehlen wir Ihnen dringend, eine Zahlungsmethode hinzuzufügen, wenn Sie während des Anmeldevorgangs dazu aufgefordert werden. Dadurch können Sie Nachrichten direkt von Carsu aus an Ihre eigene Nummer senden",
+    "in_order_to_enjoy_the_full_potential_of_project_customer_communications_we_highly_recommend_for_you_to_add_a_payment_method_when_requested_during_the_sign_up_process_this_enables_you_to_send_messages_directly_from_project_on_your_own_number": "Um das volle Potenzial der The Project-Kundenkommunikation auszuschöpfen, empfehlen wir Ihnen dringend, eine Zahlungsmethode hinzuzufügen, wenn Sie während des Anmeldevorgangs dazu aufgefordert werden. Dadurch können Sie Nachrichten direkt von The Project aus an Ihre eigene Nummer senden",
     "connect_later": "Später verbinden",
     "connect_now": "Jetzt verbinden"
   },
@@ -757,7 +757,7 @@
       "your_free_trial_is_ending_soon": "Ihre kostenlose Testversion endet bald"
     },
     "div": {
-      "carsu_all_rights_reserved": "Carsu. Alle Rechte vorbehalten."
+      "project_all_rights_reserved": "The Project. Alle Rechte vorbehalten."
     }
   },
   "dynamic": {

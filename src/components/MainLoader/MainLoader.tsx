@@ -3,7 +3,7 @@
 import { Box, keyframes } from '@mui/material';
 import Image from 'next/image';
 
-import LogoSrc from 'public/carsuFullLogoBlue.png';
+import LogoSrc from 'public/projectFullLogoBlue.png';
 
 const pulse = keyframes`
     0% {
@@ -42,7 +42,7 @@ export default function MainLoader() {
         <Box
           component={Image}
           src={LogoSrc}
-          alt="Carsu Technologies"
+          alt="The Project Technologies"
           width={[150, 300]}
           height={150}
           sx={{ objectFit: 'contain' }}

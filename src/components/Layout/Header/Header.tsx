@@ -8,7 +8,7 @@ import { NavigationButtons } from 'src/components/Layout/Header/NavigationButton
 import { collapsedWidth, drawerWidth } from 'src/components/Sidebar/Sidebar';
 import { usePageMetadata } from 'src/hooks/usePageMetadata';
 
-import logoSrc from '../../../../public/carsuFullLogoBlue.png';
+import logoSrc from '../../../../public/projectFullLogoBlue.png';
 
 interface HeaderProps {
   isOpen: boolean;
@@ -80,7 +80,7 @@ const Header: React.FC<HeaderProps> = ({ disableNavigation, isOpen, toggleSideba
           width={200}
           height={[48, 60, 60]}
           src={logoSrc}
-          alt="Carsu Technologies"
+          alt="The Project Technologies"
           sx={{ objectFit: 'contain' }}
         />
       </Toolbar>

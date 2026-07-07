@@ -267,13 +267,13 @@
     "internalError": "Er is een interne fout opgetreden",
     "vatRate": "BTW-tarief",
     "logo": "Logo",
-    "welcomeCarsu": "Welkom bij Carsu",
+    "welcomeThe Project": "Welkom bij The Project",
     "signoutToComplete": "U moet zich afmelden om de registratie te voltooien",
     "signoutFirst": "Meld u eerst af!",
     "signOut": "Meld u af",
     "googleSignUp": "Meld u aan met Google",
     "microsoftSignUp": "Meld u aan met Microsoft",
-    "consentCarsu": "U stemt in met de auto",
+    "consentThe Project": "U stemt in met de auto",
     "termsCondition": "Algemene voorwaarden",
     "privacyPolicy": "Privacybeleid",
     "processingData": "en de verwerking van gegevens in overeenstemming met de AVG",
@@ -656,13 +656,13 @@
     "clear": "Duidelijk"
   },
   "RegistrationLayout": {
-    "welcome_to_carsu": "Welkom bij Carsu"
+    "welcome_to_project": "Welkom bij The Project"
   },
   "connectToFacebookModal": {
     "whatsapp_usage_rules": "WhatsApp-gebruiksregels",
     "the_first_1_000_messages_each_month_are_free_after_that_they_will_cost_0_13_per_message_paid_to_meta_the_owner_of_whatsapp_for_more_information_we_refer_to_the": "De eerste 1.000 berichten per maand zijn gratis, daarna kosten ze 0,13 per bericht. Betaald aan Meta, de eigenaar van WhatsApp. Voor meer informatie verwijzen we naar de",
     "whatsapp_business_pages": "Whatsapp-bedrijfspagina's",
-    "in_order_to_enjoy_the_full_potential_of_carsu_customer_communications_we_highly_recommend_for_you_to_add_a_payment_method_when_requested_during_the_sign_up_process_this_enables_you_to_send_messages_directly_from_carsu_on_your_own_number": "Om het volledige potentieel van Carsu-klantcommunicatie te kunnen benutten, raden wij u ten zeerste aan om tijdens het aanmeldingsproces een betaalmethode toe te voegen wanneer dit wordt gevraagd. Hierdoor kunt u berichten rechtstreeks vanuit Carsu op uw eigen nummer verzenden",
+    "in_order_to_enjoy_the_full_potential_of_project_customer_communications_we_highly_recommend_for_you_to_add_a_payment_method_when_requested_during_the_sign_up_process_this_enables_you_to_send_messages_directly_from_project_on_your_own_number": "Om het volledige potentieel van The Project-klantcommunicatie te kunnen benutten, raden wij u ten zeerste aan om tijdens het aanmeldingsproces een betaalmethode toe te voegen wanneer dit wordt gevraagd. Hierdoor kunt u berichten rechtstreeks vanuit The Project op uw eigen nummer verzenden",
     "connect_later": "Sluit later aan",
     "connect_now": "Maak nu verbinding"
   },
@@ -757,7 +757,7 @@
       "your_free_trial_is_ending_soon": "Uw gratis proefperiode eindigt binnenkort"
     },
     "div": {
-      "carsu_all_rights_reserved": "Carsu. Alle rechten voorbehouden."
+      "project_all_rights_reserved": "The Project. Alle rechten voorbehouden."
     }
   },
   "dynamic": {

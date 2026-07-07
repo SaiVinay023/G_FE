@@ -4,7 +4,7 @@ export const dummyShop: Shop = {
   language: 'en',
   id: '55db91ee-324e-42de-b431-cf028db9babe',
   name: "Marina's shop",
-  email: 'maryna@carsu.com',
+  email: 'maryna@project.com',
   logo: '55db91ee-324e-42de-b431-cf028db9babe',
   logoUrl:
     'https://tkvwatvbapsmkhyyzbto.supabase.co/storage/v1/object/public/public-shop-logos/55db91ee-324e-42de-b431-cf028db9babe',

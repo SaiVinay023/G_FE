@@ -107,7 +107,7 @@ export const ConnectToFacebookModal: FC<ConnectToFacebookModalProps> = ({
 
           <Typography variant="body1" color="textSecondary">
             {t(
-              'connectToFacebookModal.in_order_to_enjoy_the_full_potential_of_carsu_customer_communications_we_highly_recommend_for_you_to_add_a_payment_method_when_requested_during_the_sign_up_process_this_enables_you_to_send_messages_directly_from_carsu_on_your_own_number',
+              'connectToFacebookModal.in_order_to_enjoy_the_full_potential_of_project_customer_communications_we_highly_recommend_for_you_to_add_a_payment_method_when_requested_during_the_sign_up_process_this_enables_you_to_send_messages_directly_from_project_on_your_own_number',
             )}
           </Typography>
         </Box>

@@ -18,7 +18,7 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { FC, Fragment } from 'react';
 
-import miniLogoSrc from 'public/carsulogo.png';
+import miniLogoSrc from 'public/projectlogo.png';
 import logoSrc from 'public/mainLogo.png';
 import { SidebarTranslationKeys, translateNavigationItem } from 'src/components/Sidebar/translateNavigationItem';
 import { useOpenMenus } from 'src/hooks/useOpenMenus';
@@ -99,7 +99,7 @@ const Sidebar: FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
             width={isMobile ? 142 : isOpen ? 200 : collapsedWidth}
             height={isMobile ? 30 : 48}
             src={isOpen ? logoSrc : miniLogoSrc}
-            alt="Carsu Technologies"
+            alt="The Project Technologies"
             sx={{ objectFit: 'contain' }}
           />
 

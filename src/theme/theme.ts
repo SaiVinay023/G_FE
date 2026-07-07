@@ -181,22 +181,22 @@ export const theme = createTheme(baseTheme, {
           '& .fc-event': {
             'backgroundColor': baseTheme.palette.primary.main + ' !important',
 
-            '.carsu-fullcalendar': {
+            '.project-fullcalendar': {
               backgroundColor: baseTheme.palette.primary.main + ' !important',
             },
 
-            '&.carsu-fullcalendar:hover': {
+            '&.project-fullcalendar:hover': {
               backgroundColor: baseTheme.palette.primary.main + ' !important',
               opacity: 0.7,
             },
 
-            '&.carsu-fullcalendar.event-break': {
+            '&.project-fullcalendar.event-break': {
               backgroundColor: baseTheme.palette.secondary.main + ' !important',
               borderColor: baseTheme.palette.secondary.main + ' !important',
               cursor: 'default !important',
             },
 
-            '&.carsu-fullcalendar.event-break:hover': {
+            '&.project-fullcalendar.event-break:hover': {
               backgroundColor: baseTheme.palette.secondary.main + ' !important',
               borderColor: baseTheme.palette.secondary.main + ' !important',
               opacity: 1,

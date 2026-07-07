@@ -26,7 +26,7 @@ export const RegistrationConfirm = () => {
       <Paper variant="outlined" sx={{ p: [2, 3, 3], borderRadius: 2, mb: 3, position: 'relative' }}>
         <Box display="flex" flexDirection="column" gap={3}>
           <Typography textAlign="center" variant="h2" color="primary">
-            {t('RegistrationLayout.welcome_to_carsu')}
+            {t('RegistrationLayout.welcome_to_project')}
           </Typography>
 
           <Box display="flex" alignItems="center" justifyContent="center">

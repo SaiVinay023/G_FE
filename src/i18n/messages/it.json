@@ -267,13 +267,13 @@
     "internalError": "Si è verificato un errore interno",
     "vatRate": "Aliquota IVA",
     "logo": "Logo",
-    "welcomeCarsu": "Benvenuti a Carsu",
+    "welcomeThe Project": "Benvenuti a The Project",
     "signoutToComplete": "È necessario uscire per completare la registrazione",
     "signoutFirst": "Esci prima!",
     "signOut": "disconnessione",
     "googleSignUp": "Iscriviti utilizzando Google",
     "microsoftSignUp": "Iscriviti utilizzando Microsoft",
-    "consentCarsu": "Acconsenti al carsu",
+    "consentThe Project": "Acconsenti al project",
     "termsCondition": "Termini e Condizioni",
     "privacyPolicy": "Politica di privacy",
     "processingData": "e il trattamento dei dati in conformità al GDPR",
@@ -656,13 +656,13 @@
     "clear": "Svuota"
   },
   "RegistrationLayout": {
-    "welcome_to_carsu": "Benvenuti a Carsu"
+    "welcome_to_project": "Benvenuti a The Project"
   },
   "connectToFacebookModal": {
     "whatsapp_usage_rules": "Regole per l'utilizzo di Whatsapp",
     "the_first_1_000_messages_each_month_are_free_after_that_they_will_cost_0_13_per_message_paid_to_meta_the_owner_of_whatsapp_for_more_information_we_refer_to_the": "I primi 1.000 messaggi ogni mese sono gratuiti, dopodiché costeranno 0,13 per messaggio pagati a Meta Il proprietario di Whatsapp Per ulteriori informazioni rimandiamo al",
     "whatsapp_business_pages": "Pagine aziendali di Whatsapp",
-    "in_order_to_enjoy_the_full_potential_of_carsu_customer_communications_we_highly_recommend_for_you_to_add_a_payment_method_when_requested_during_the_sign_up_process_this_enables_you_to_send_messages_directly_from_carsu_on_your_own_number": "Per sfruttare tutto il potenziale delle comunicazioni con i clienti Carsu, ti consigliamo vivamente di aggiungere un metodo di pagamento quando richiesto durante il processo di registrazione. Ciò ti consente di inviare messaggi direttamente da Carsu sul tuo numero",
+    "in_order_to_enjoy_the_full_potential_of_project_customer_communications_we_highly_recommend_for_you_to_add_a_payment_method_when_requested_during_the_sign_up_process_this_enables_you_to_send_messages_directly_from_project_on_your_own_number": "Per sfruttare tutto il potenziale delle comunicazioni con i clienti The Project, ti consigliamo vivamente di aggiungere un metodo di pagamento quando richiesto durante il processo di registrazione. Ciò ti consente di inviare messaggi direttamente da The Project sul tuo numero",
     "connect_later": "Connettiti più tardi",
     "connect_now": "Connettiti ora"
   },
@@ -757,7 +757,7 @@
       "your_free_trial_is_ending_soon": "La tua prova gratuita sta per terminare"
     },
     "div": {
-      "carsu_all_rights_reserved": "Carsu. Tutti i diritti riservati."
+      "project_all_rights_reserved": "The Project. Tutti i diritti riservati."
     }
   },
   "dynamic": {

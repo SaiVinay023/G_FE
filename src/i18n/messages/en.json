@@ -236,13 +236,13 @@
     "vatRate": "VAT rate",
     "logo": "Logo",
     "deleting": "Deleting...",
-    "welcomeCarsu": "Welcome to carsu",
+    "welcomeThe Project": "Welcome to project",
     "signoutToComplete": "You need to sign out to complete the registration",
     "signoutFirst": "Sign out first!",
     "signOut": "Sign out",
     "googleSignUp": "Sign up using Google",
     "microsoftSignUp": "Sign up using Microsoft",
-    "consentCarsu": "You consent to the carsu",
+    "consentThe Project": "You consent to the project",
     "termsCondition": "Terms and Conditions",
     "privacyPolicy": "Privacy Policy",
     "processingData": "and the processing of data in accordance with GDPR",
@@ -625,13 +625,13 @@
     "clear": "Clear"
   },
   "RegistrationLayout": {
-    "welcome_to_carsu": "Welcome To Carsu"
+    "welcome_to_project": "Welcome To The Project"
   },
   "connectToFacebookModal": {
     "whatsapp_usage_rules": "Whatsapp Usage Rules",
     "the_first_1_000_messages_each_month_are_free_after_that_they_will_cost_0_13_per_message_paid_to_meta_the_owner_of_whatsapp_for_more_information_we_refer_to_the": "The First 1 000 Messages Each Month Are Free After That They Will Cost 0 13 Per Message Paid To Meta The Owner Of Whatsapp For More Information We Refer To The",
     "whatsapp_business_pages": "Whatsapp Business Pages",
-    "in_order_to_enjoy_the_full_potential_of_carsu_customer_communications_we_highly_recommend_for_you_to_add_a_payment_method_when_requested_during_the_sign_up_process_this_enables_you_to_send_messages_directly_from_carsu_on_your_own_number": "In Order To Enjoy The Full Potential Of Carsu Customer Communications We Highly Recommend For You To Add A Payment Method When Requested During The Sign Up Process This Enables You To Send Messages Directly From Carsu On Your Own Number",
+    "in_order_to_enjoy_the_full_potential_of_project_customer_communications_we_highly_recommend_for_you_to_add_a_payment_method_when_requested_during_the_sign_up_process_this_enables_you_to_send_messages_directly_from_project_on_your_own_number": "In Order To Enjoy The Full Potential Of The Project Customer Communications We Highly Recommend For You To Add A Payment Method When Requested During The Sign Up Process This Enables You To Send Messages Directly From The Project On Your Own Number",
     "connect_later": "Connect Later",
     "connect_now": "Connect Now"
   },
@@ -726,7 +726,7 @@
       "your_free_trial_is_ending_soon": "Your Free Trial is Ending Soon"
     },
     "div": {
-      "carsu_all_rights_reserved": "Carsu. All rights reserved."
+      "project_all_rights_reserved": "The Project. All rights reserved."
     }
   },
   "dynamic": {

@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document provides comprehensive documentation for the WhatsApp Business integration within the Carsu platform. The integration allows garage shops to connect their WhatsApp Business accounts, receive and send messages, manage message templates, and interact with customers through WhatsApp.
+This document provides comprehensive documentation for the WhatsApp Business integration within the The Project platform. The integration allows garage shops to connect their WhatsApp Business accounts, receive and send messages, manage message templates, and interact with customers through WhatsApp.
 
 ## Table of Contents
 
@@ -480,15 +480,15 @@ import { format } from "date-fns";
 import { parsePhoneNumber } from "libphonenumber-js";
 import { z } from "zod";
 
-import { and, asc, count, desc, eq, inArray, or, schema } from "@carsu/db";
-import { quickShareContacts } from "@carsu/db/schema/quickShareContacts";
-import { shops } from "@carsu/db/schema/shop";
-import { whatsapp } from "@carsu/db/schema/whatsapp";
-import { getQuickSharePhoneContactFilter } from "@carsu/db/utils/filters";
-import { QuickShareWhatsappSchema } from "@carsu/types/api";
-import type { OAuthAccessTokenResponse } from "@carsu/types/api";
-import type { ShareContact } from "@carsu/types/db";
-import type { Shop } from "@carsu/types/frontend";
+import { and, asc, count, desc, eq, inArray, or, schema } from "@project/db";
+import { quickShareContacts } from "@project/db/schema/quickShareContacts";
+import { shops } from "@project/db/schema/shop";
+import { whatsapp } from "@project/db/schema/whatsapp";
+import { getQuickSharePhoneContactFilter } from "@project/db/utils/filters";
+import { QuickShareWhatsappSchema } from "@project/types/api";
+import type { OAuthAccessTokenResponse } from "@project/types/api";
+import type { ShareContact } from "@project/types/db";
+import type { Shop } from "@project/types/frontend";
 
 import { WHATS_APP_API_URL } from "../cache/whatsapp";
 import { env } from "../env.mjs";
@@ -702,7 +702,7 @@ export const whatsappRouter = createTRPCRouter({
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
-import { db, eq, schema } from "@carsu/db";
+import { db, eq, schema } from "@project/db";
 
 import { env } from "~/env.mjs";
 
@@ -978,7 +978,7 @@ export default function Page() {
 import crypto from "crypto";
 import type { NextApiRequest, NextApiResponse } from "next";
 
-import { db, eq, schema } from "@carsu/db";
+import { db, eq, schema } from "@project/db";
 
 interface DeauthorizePayload {
   waba_id: string;
@@ -1132,7 +1132,7 @@ export const sendWhatsAppText = async (options: {
 | `WHATSAPP_PHONE_NUMBER_ID` | Master Phone Number ID | `123456789012345` |
 | `WHATSAPP_ACCESS_TOKEN` | System User Access Token | `EAAG...` |
 | `WEBHOOK_VERIFY_TOKEN` | Webhook Verification Token | `your_secret_token` |
-| `NEXT_PUBLIC_BASE_URL` | Application Base URL | `https://app.carsu.com` |
+| `NEXT_PUBLIC_BASE_URL` | Application Base URL | `https://app.project.com` |
 
 ### Facebook App Setup Requirements
 
@@ -1296,8 +1296,8 @@ const verifyWebhookSecurity = (payload: WebhookPayload) => {
 
 #### SDK Development
 ```typescript
-// Carsu WhatsApp SDK
-class CarsuWhatsApp {
+// The Project WhatsApp SDK
+class The ProjectWhatsApp {
   constructor(config: WhatsAppConfig) {}
   
   async sendMessage(to: string, message: MessageBuilder): Promise<MessageResponse> {}

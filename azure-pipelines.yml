@@ -10,11 +10,11 @@ pr:
 
 variables:
   azureSubscription: "refactor-fe-dev-sc"
-  registryName:      "carsurefactordev"
-  acrLoginServer:    "carsurefactordev.azurecr.io"
-  resourceGroup:     "CarsuRefactorDev"
+  registryName:      "projectrefactordev"
+  acrLoginServer:    "projectrefactordev.azurecr.io"
+  resourceGroup:     "The ProjectRefactorDev"
   webAppName:        "refactor-fe-dev"
-  imageRepository:   "carsu-fe"
+  imageRepository:   "project-fe"
   tag:               "$(Build.BuildId)"
 
 stages:

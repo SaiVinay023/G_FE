@@ -16,7 +16,7 @@ import { Toaster } from 'react-hot-toast';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Carsu',
+  title: 'The Project',
   description: 'Building software to manage the modern automotive workshop',
   icons: {
     icon: [{ url: '/favicon.ico' }],
@@ -45,8 +45,8 @@ export default async function Layout({ children, params }: { children: ReactNode
           <ClerkProvider
             appearance={{
               layout: {
-                termsPageUrl: 'https://www.carsu.com/terms-conditions/',
-                privacyPageUrl: 'https://www.carsu.com/privacy-policy/',
+                termsPageUrl: 'https://www.project.com/terms-conditions/',
+                privacyPageUrl: 'https://www.project.com/privacy-policy/',
                 socialButtonsVariant: 'iconButton',
               },
             }}
